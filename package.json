@@ -1,15 +1,15 @@
 {
-  "name": "iglo.tech",
+  "name": "mage-os.community",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build && node inline-styles.mjs",
-    "preview": "astro preview"
+    "build": "astro build && node inline-styles.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "astro": "^0.20.4",
     "globby": "^12.0.2",
+    "got": "^11.8.2",
+    "md5": "^2.3.0",
     "tailwindcss": "^2.2.9"
   }
 }

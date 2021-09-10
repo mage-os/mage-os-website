@@ -1,0 +1,14 @@
+---
+import Layout from './post.astro'
+import SignForm from '../components/SignForm.vue'
+const { content } = Astro.props
+---
+<Layout ...Astro.props>
+  <slot />
+
+  <SignForm
+    slot="footer"
+    groupId={content.groupId}
+    client:load
+  />
+</Layout>
