@@ -1,0 +1,25 @@
+---
+import Layout from './default.astro'
+const { content } = Astro.props
+---
+<Layout ...Astro.props>
+  <div class="mb-4 mx-auto max-w-prose">
+    <h1
+      class="
+        mb-2
+        text-4xl
+        text-primary font-semibold
+      "
+    >
+      { content.title }
+    </h1>
+
+    <div class="text-gray-400">
+      { new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(content.date))}
+    </div>
+  </div>
+
+  <article class="prose dark:prose-light mx-auto">
+    <slot />
+  </article>
+</Layout>

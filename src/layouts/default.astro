@@ -1,0 +1,68 @@
+---
+import MetaTags from '@/utils/MetaTags.astro'
+import Header from '@/components/Header.astro'
+import Footer from '@/components/Footer.astro'
+
+const stylesUrl = Astro.resolve('../assets/styles/global.css')
+const fontsUrl = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=block'
+
+const { content } = Astro.props
+const title = 'Magento Open Source Community Aliance'
+const description = 'Community movement to keep the Open Source version of the Magento'
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/fonts/montserrat-400-v1.woff2') format('woff2');
+        font-display: block;
+      }
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/fonts/montserrat-600-v1.woff2') format('woff2');
+        font-display: block;
+      }
+    </style>
+
+    <!-- Core styles -->
+    <link id="inline-styles" rel="stylesheet" href={stylesUrl} />
+
+    <MetaTags
+      title={ content?.title ? `${title} | ${content.title}` : title }
+      description={ content?.description || description }
+    />
+  </head>
+
+  <body
+    class="
+      bg-white
+      text-gray-800 font-sans antialiased
+    "
+  >
+    <div
+      id="content"
+      class="mx-auto max-w-4xl px-4 md:px-0"
+    >
+      <Header />
+
+      <main>
+        <slot />
+      </main>
+
+      <Footer />
+    </div>
+
+    <script
+      type="module"
+      src={Astro.resolve('../assets/js/google-analytics.js')}
+      async
+      defer
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+---
+const { posts } = Astro.props
+function getMonthName(date) {
+  return new Date(date).toLocaleString('en-US', { month: 'short' })
+}
+---
+<section class="flex flex-col gap-12">
+  {posts.map(post => (
+    <div class="flex gap-6">
+      <div class="w-10 md:w-32">
+        <div class="flex flex-col w-full text-center">
+          <span class="text-4xl md:text-6xl font-semibold text-gray-600">
+            {new Date(post.date).getDate()}
+          </span>
+
+          <span class="text-gray-500">
+            {`${getMonthName(post.date)} ${new Date(post.date).getFullYear()}`}
+          </span>
+        </div>
+      </div>
+
+      <div class="flex-1">
+        <h4
+          class="
+            mb-2
+            text-2xl font-semibold
+            text-primary hover:text-secondary
+            transition-colors
+          "
+        >
+          <a
+            href={post.url}
+            title={post.title}
+          >
+            {post.title}
+          </a>
+        </h4>
+
+        <p class="text-lg leading-6 text-gray-800 line-clamp-2">
+          {post.description}
+        </p>
+      </div>
+    </div>
+  ))}
+</section>

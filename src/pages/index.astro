@@ -1,0 +1,9 @@
+---
+import Layout from '@/layouts/default.astro'
+import PostPreviewList from '@/components/PostPreviewList.astro'
+
+const posts = Astro.fetchContent('./blog/*.md')
+---
+<Layout>
+  <PostPreviewList posts={posts} />
+</Layout>
