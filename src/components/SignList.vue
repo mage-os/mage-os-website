@@ -5,9 +5,9 @@
   >
     <p class="font-semibold text-xl mb-2">
       People who signed this letter
-      <template v-if="newSigns > 0">
-        {{ newSigns }} new sign{{ newSigns > 1 ? 's' : '' }} since loading the page
-      </template>
+      <span v-if="newSigns > 0" class="font-normal">
+        ({{ newSigns }} new sign{{ newSigns > 1 ? 's' : '' }} since opening)
+      </span>
     </p>
 
     <ul class="grid sm:grid-cols-2">
@@ -72,9 +72,17 @@ export default {
     await this.getPeople()
     this.initialCount = this.people.length
 
-    windw.addEventListener('letter-signed', this.getPeople)
+    window.addEventListener('letter-signed', this.getPeople)
 
     setInterval(this.getPeople, 1000 * 60)
+
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        this.getPeople()
+      }
+    })
+
+    observer.observe(this.$el)
   },
   methods: {
     async getPeople() {
