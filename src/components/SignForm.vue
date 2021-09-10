@@ -15,7 +15,7 @@
         bg-orange-400
       "
     >
-      <div class="p-12 md:p-0">
+      <div class="p-8 sm:p-12 md:p-0">
         <h2 class="text-3xl font-semibold text-gray-100">
           Sign up the letter
         </h2>
@@ -132,6 +132,7 @@
 
           if (response.status === 200) {
             this.msg = 'Letter signed!'
+            window.dispatchEvent(new Event('letter-signed'))
           } else {
             this.msg = 'Something went wrong!'
           }
