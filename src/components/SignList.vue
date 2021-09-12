@@ -4,7 +4,7 @@
     v-if="people.length > 0"
   >
     <p class="font-semibold text-xl mb-2">
-      Companies &amp; individuals who signed this letter
+      Companies &amp; individuals who signed this letter:
       <span v-if="newSigns > 0" class="font-normal">
         ({{ newSigns }} new sign{{ newSigns > 1 ? 's' : '' }} since opening)
       </span>
