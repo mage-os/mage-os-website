@@ -13,15 +13,9 @@ const { content } = Astro.props
     >
       { content.title }
     </h1>
-
-    <div class="text-gray-400">
-      { new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(content.date))}
-    </div>
   </div>
 
   <article class="prose mx-auto">
     <slot />
   </article>
-
-  <slot name="footer" />
 </Layout>
