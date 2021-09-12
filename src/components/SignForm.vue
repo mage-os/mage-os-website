@@ -17,7 +17,7 @@
     >
       <div class="p-8 sm:p-12 md:p-0">
         <h2 class="text-3xl font-semibold text-gray-100">
-          Sign up the letter
+          Sign the letter
         </h2>
         <p class="mt-2 text-white">
           Do you support this idea? <br />
