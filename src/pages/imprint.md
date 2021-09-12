@@ -4,4 +4,12 @@ title: Imprint
 description: Imprint
 ---
 
-Enim voluptate quis anim labore do consectetur magna do aute officia. Consectetur cupidatat do ea dolor occaecat. Aliquip proident do eiusmod consectetur aliquip velit velit nisi ex excepteur non non nulla. Consequat ad eiusmod proident culpa et incididunt ea mollit anim veniam mollit. Adipisicing labore aute fugiat non cupidatat sint laborum do commodo fugiat nulla. Ut deserunt ipsum aute excepteur occaecat reprehenderit do cupidatat mollit aliqua laboris nulla cupidatat.
+The website www.mage-os.community is operated by the group of companies and individuals who are listed as the original signatories of the open letter to the Magento community published on the website on 14. September 2021.
+
+Their contact information can be found publicly on the respective websites.
+
+Representative contact regarding all matters of the website is Vinai Kopp.
+
+Email: vinai@hyva.io  
+Address: Reichensteinstr. 36, 69151 Neckargemünd, Germany
+
