@@ -10,7 +10,7 @@
       ]
     },
     {
-      "sourcce": "/api/subscribers-list",
+      "source": "/api/subscribers-list",
       "heaaders": [
         {
           "key": "Cache-Control",
