@@ -1,6 +1,6 @@
 <template>
   <div class="mt-8 underline">
-      <a href="#sign-form">Skip names to the form</a>
+      <a href="#sign-form">Skip the list of names and go directly to the form.</a>
   </div>
   <div
     class="mt-4"
