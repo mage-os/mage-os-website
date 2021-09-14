@@ -5,6 +5,7 @@ title: The Future of Magento
 description: Open letter to the Magento Community
 groupId: 108619660
 ---
+## Open letter to the Magento Community
 
 Dear Magento community,
 
