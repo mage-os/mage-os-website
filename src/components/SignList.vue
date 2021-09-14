@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8">
+  <div class="mt-8 underline">
       <a href="#sign-form">Skip names to the form</a>
   </div>
   <div
