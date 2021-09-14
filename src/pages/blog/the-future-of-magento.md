@@ -51,7 +51,7 @@ This initiative has been started by the companies and individuals signed below. 
  * Bartek Igielski,  snow.dog
  * Simon Sprankel,  CustomGento GmbH
  * Ryan Hoerr,  ParadoxLabs, Inc
- * Thien-Lan Weber, CMO at OneStepCheckout
+ * Thien-Lan Weber, OneStepCheckout
  * Alessandro Ronchi,  Magento Community Maintainer
  * John Hughes
  * Tomas Gerulaitis
