@@ -6,7 +6,7 @@ export default async (request, response) => {
 
   const raw = await got({
     method: 'GET',
-    url: `https://api.mailerlite.com/api/v2/groups/${request.query.groupId}/subscribers`,
+    url: `https://api.mailerlite.com/api/v2/groups/${request.query.groupId}/subscribers?limit=5000`,
     headers: {
       'X-MailerLite-ApiKey': apiKey,
     }
