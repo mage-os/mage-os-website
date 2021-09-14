@@ -33,12 +33,12 @@ We want to earn the trust of the Magento ecosystem. We truly believe we can not 
 This is only the beginning. Magento has a bright future ahead. We invite you to join us.
 
 
-This initiative has been started by the companies and individuals signed below. If you want to publicly show your endorsement and be informed on future updates, please sign this open letter using the form below.
+*This initiative has been started by the companies and individuals signed below. If you want to publicly show your endorsement and be informed on future updates, please sign this open letter using the form below.*
 
 
 
- *  Willem Wigman,  Hyvä Themes B.V.
- *  Vinai Kopp,  Hyvä Themes B.V.
+ * Willem Wigman,  Hyvä Themes B.V.
+ * Vinai Kopp,  Hyvä Themes B.V.
  * Andreas von Studnitz,  integer_net GmbH
  * Fabian Schmengler,  integer_net GmbH
  * Ignacio Riesco,  Interactiv4 S.L.
