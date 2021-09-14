@@ -6,14 +6,13 @@ export default async (request, response) => {
 
   const raw = await got({
     method: 'GET',
-    url: `https://api.mailerlite.com/api/v2/groups/${request.query.groupId}/subscribers?limit=5000`,
+    url: `https://api.mailerlite.com/api/v2/groups/${request.query.groupId}/subscribers/active?limit=5000`,
     headers: {
       'X-MailerLite-ApiKey': apiKey,
     }
   }).json()
 
   const subsribers = raw
-    .filter(subscriber => subscriber.type === 'active')
     .map(subscriber => ({
       avatar: `https://www.gravatar.com/avatar/${md5(subscriber.email.toLowerCase())}`,
       name: subscriber.name,
