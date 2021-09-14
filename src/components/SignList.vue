@@ -1,6 +1,9 @@
 <template>
+  <div class="mt-8">
+      <a href="#sign-form">Skip names to the form</a>
+  </div>
   <div
-    class="mt-8"
+    class="mt-4"
     v-if="people.length > 0"
   >
     <p class="font-semibold text-xl mb-2">

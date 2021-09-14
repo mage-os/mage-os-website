@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div id="sign-form"
     class="
       flex flex-col md:flex-row
       max-w-4xl
