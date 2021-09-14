@@ -21,7 +21,7 @@
         </h2>
         <p class="mt-2 text-white">
           Do you support this idea? <br />
-          Let other know about it!
+          Let others know about it!
         </p>
       </div>
     </div>
