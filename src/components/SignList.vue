@@ -2,8 +2,10 @@
   <div class="mt-8 underline">
       <a href="#sign-form">Skip the list and go directly to the form.</a>
   </div>
+
   <div
     class="mt-4"
+    ref="list"
     v-if="people.length > 0"
   >
     <p class="font-semibold text-xl mb-2">
@@ -66,7 +68,7 @@ export default {
       }
     })
 
-    observer.observe(this.$el)
+    observer.observe(this.$refs.list)
   },
   methods: {
     async getPeople() {
