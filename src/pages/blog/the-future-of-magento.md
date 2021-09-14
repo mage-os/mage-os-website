@@ -37,21 +37,21 @@ This is only the beginning. Magento has a bright future ahead. We invite you to 
 
 
 
- * Willem Wigman,  Hyvä Themes B.V.
- * Vinai Kopp,  Hyvä Themes B.V.
- * Andreas von Studnitz,  integer_net GmbH
- * Fabian Schmengler,  integer_net GmbH
- * Ignacio Riesco,  Interactiv4 S.L.
- * Óscar Recio,  Interactiv4 S.L.
- * Peter Jaap Blaakmeer,  elgentos
- * Wouter Steenmeijer,  elgentos
- * Jeroen Boersma,  elgentos
- * Kuba Zwolinski,  snow.dog
- * Kamil Balwierz,  snow.dog
- * Bartek Igielski,  snow.dog
- * Simon Sprankel,  CustomGento GmbH
- * Ryan Hoerr,  ParadoxLabs, Inc
- * Thien-Lan Weber, OneStepCheckout
- * Alessandro Ronchi,  Magento Community Maintainer
- * John Hughes
- * Tomas Gerulaitis
+ * *Willem Wigman,  Hyvä Themes B.V.*
+ * *Vinai Kopp,  Hyvä Themes B.V.*
+ * *Andreas von Studnitz,  integer_net GmbH*
+ * *Fabian Schmengler,  integer_net GmbH*
+ * *Ignacio Riesco,  Interactiv4 S.L.*
+ * *Óscar Recio,  Interactiv4 S.L.*
+ * *Peter Jaap Blaakmeer,  elgentos*
+ * *Wouter Steenmeijer,  elgentos*
+ * *Jeroen Boersma,  elgentos*
+ * *Kuba Zwolinski,  snow.dog*
+ * *Kamil Balwierz,  snow.dog*
+ * *Bartek Igielski,  snow.dog*
+ * *Simon Sprankel,  CustomGento GmbH*
+ * *Ryan Hoerr,  ParadoxLabs, Inc*
+ * *Thien-Lan Weber, OneStepCheckout*
+ * *Alessandro Ronchi,  Magento Community Maintainer*
+ * *John Hughes*
+ * *Tomas Gerulaitis*
