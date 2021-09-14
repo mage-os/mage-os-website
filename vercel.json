@@ -11,7 +11,7 @@
     },
     {
       "source": "/api/subscribers-list",
-      "heaaders": [
+      "headers": [
         {
           "key": "Cache-Control",
           "value": "s-maxage=1, stale-while-revalidate=59"
