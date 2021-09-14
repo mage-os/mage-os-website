@@ -6,7 +6,7 @@
     <p class="font-semibold text-xl mb-2">
       Companies &amp; individuals who signed this letter:
       <span v-if="newSigns > 0" class="font-normal">
-        ({{ newSigns }} new sign{{ newSigns > 1 ? 's' : '' }} since opening)
+        ({{ newSigns }} new signature{{ newSigns > 1 ? 's' : '' }} since opening)
       </span>
     </p>
 
