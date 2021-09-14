@@ -1,5 +1,6 @@
 <template>
-  <div id="sign-form"
+  <div
+    id="sign-form"
     class="
       flex flex-col md:flex-row
       max-w-4xl
@@ -38,7 +39,7 @@
         class="flex flex-col w-full"
         @submit.prevent="subscribe"
       >
-        <label for="input" lass="label">
+        <label for="input" class="label">
           Email
         </label>
         <input
@@ -49,11 +50,11 @@
           required
         />
 
-        <label for="email" lass="label">
+        <label for="name" class="label">
           Name
         </label>
         <input
-          id="email"
+          id="name"
           class="input"
           type="text"
           v-model="name"
@@ -77,24 +78,25 @@
             rounded
             bg-primary
             hover:bg-gray-600
+            transition-colors
           "
           type="submit"
+          :disabled="isProcessing"
         >
-          Sign the letter
+          {{ isProcessing ? 'Processing...' : 'Sign the letter' }}
         </button>
 
         <div
           v-if="msg"
-          class="
+          :class="`
             flex justify-between
             mt-4 px-6 py-4
-            bg-orange-100
             rounded
-            text-orange-600
+            ${ msg.type === 'success' ? 'bg-green-100 text-green-600' : 'bg-red-100 text-red-600' }
             font-semibold
-          "
+          `"
         >
-          {{ msg }}
+          {{ msg.text }}
         </div>
       </form>
     </div>
@@ -114,12 +116,14 @@
         email: '',
         name: '',
         company: '',
-        msg: ''
+        msg: '',
+        isProcessing: false
       }
     },
     methods: {
       async subscribe() {
         try {
+          this.isProcessing = true
           const response = await fetch('/api/subscribe', {
             method: 'POST',
             body: JSON.stringify({
@@ -131,14 +135,24 @@
           })
 
           if (response.status === 200) {
-            this.msg = 'Check your email to confirm your email address and complete the signing of the letter.'
+            this.msg = {
+              type: 'success',
+              text: 'Check your email to confirm your email address and complete the signing of the letter.'
+            }
             window.dispatchEvent(new Event('letter-signed'))
           } else {
-            this.msg = 'Something went wrong!'
+            const data = await response.json()
+            this.msg = {
+              type: 'error',
+              text: data?.error?.message || 'Something went wrong!'
+            }
           }
+
+          this.isProcessing = false
         }
         catch (error) {
           this.msg = error.message
+          this.isProcessing = false
         }
       }
     }

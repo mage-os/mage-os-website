@@ -1,8 +1,4 @@
 <template>
-  <div class="mt-8 underline">
-      <a href="#sign-form">Skip the list and go directly to the form.</a>
-  </div>
-
   <div
     class="mt-4"
     ref="list"
@@ -10,9 +6,24 @@
   >
     <p class="font-semibold text-xl mb-2">
       Companies &amp; individuals who signed this letter:
-      <span v-if="newSigns > 0" class="font-normal">
-        ({{ newSigns }} new signature{{ newSigns > 1 ? 's' : '' }} since opening)
-      </span>
+    </p>
+
+    <p class="flex items-center flex-col sm:flex-row mb-6">
+      {{ people.length }} people signed this letter{{ newSigns > 0 ? `, ${newSigns} new since you are there` : '' }}
+
+      <a
+        href="#sign-form"
+        class="
+          ml-2 px-4 py-1
+          text-gray-100 font-semibold
+          rounded
+          bg-primary
+          hover:bg-gray-600
+          transition-colors
+        "
+      >
+        Sign the letter
+      </a>
     </p>
 
     <ul class="grid sm:grid-cols-2">
@@ -74,7 +85,7 @@ export default {
     async getPeople() {
       try {
         const people = await fetch(`/api/subscribers-list?groupId=${this.groupId}`).then(res => res.json())
-        this.people = people
+        this.people = people.reverse()
       } catch (e) {
         // We hit an FUNCTION_INVOCATION_FAILED server error.
       }
