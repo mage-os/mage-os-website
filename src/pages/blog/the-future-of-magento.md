@@ -6,38 +6,6 @@ description: Open letter to the Magento Community
 groupId: 108619660
 ---
 
-# Members in the Slack
-
-- Alessandro Ronchi [signed]
-- Andreas von Studnitz [signed]
-- Anton Siniorg
-- Bartek Igielski [signed - in thread]
-- Christina Philipp [no]
-- Dave Ministy Pain [no]
-- Gennaro Vietri [no]
-- Ignacio Riesco [signed - in thread]
-- Joeren Boersma [signed - in thread]
-- John Hughes [signed]
-- Kamil Balwierz
-- Kuba Zwolinski
-- Mirko Cesaro [no]
-- Nick Jones [no]
-- Oscar Recio [signed]
-- Peter Jaap Blaakmeer [signed - in thread]
-- Rob Tranter [no]
-- Ryan Hoerr [signed]
-- Simon Sprankel [signed]
-- Sonja Franz [no]
-- Thien-Lan Weber
-- Tomas Gerulaitis [signed - in thread]
-- Tomislav Bilic [no]
-- Vinai Kopp [signed]
-- Willem Wigman [signed]
-- Wouter Steenmeijer [signed - in thread]
-
-
----
-
 Dear Magento community,
 
 With this open announcement we are letting you know that there will be a community organization driven fork of Magento. The purpose is to secure Magento's long term viability for all the businesses depending on it.
