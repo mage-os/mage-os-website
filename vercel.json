@@ -8,6 +8,15 @@
           "value": "public, max-age=31556952, immutable"
         }
       ]
+    },
+    {
+      "sourcce": "/api/subscribers-list",
+      "heaaders": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=1, stale-while-revalidate=59"
+        }
+      ]
     }
   ]
 }
