@@ -86,8 +86,12 @@ export default {
   },
   methods: {
     async getPeople() {
-      const people = await fetch(`/api/subscribers-list?groupId=${this.groupId}`).then(res => res.json())
-      this.people = people
+      try {
+        const people = await fetch(`/api/subscribers-list?groupId=${this.groupId}`).then(res => res.json())
+        this.people = people
+      } catch (e) {
+        // We hit an FUNCTION_INVOCATION_FAILED server error.
+      }
     }
   }
 }
