@@ -45,7 +45,7 @@ This initiative has been started by the companies and individuals signed below. 
  * Óscar Recio,  Interactiv4 S.L.
  * Peter Jaap Blaakmeer,  elgentos
  * Wouter Steenmeijer,  elgentos
- * Joeren Boersma,  elgentos
+ * Joerenn Boersma,  elgentos
  * Kuba Zwolinski,  snow.dog
  * Kamil Balwierz,  snow.dog
  * Bartek Igielski,  snow.dog
