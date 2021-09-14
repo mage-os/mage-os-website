@@ -59,7 +59,7 @@ export default {
   data() {
     return {
       initialCount: 0,
-      slice: 1000,
+      slice: 20,
       people: []
     }
   },
