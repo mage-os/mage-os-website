@@ -12,7 +12,7 @@
 
     <ul class="grid sm:grid-cols-2">
       <li
-        v-for="({ name, company, avatar }) in people.slice(0, slice)"
+        v-for="({ name, company, avatar }) in people"
         :key="name"
         class="
           flex flex-row items-center
@@ -27,24 +27,6 @@
         {{ name }}{{ company ? ` @ ${company}` : '' }}
       </li>
     </ul>
-
-    <p
-      class="block"
-      v-if="people.length > slice"
-    >
-      And {{ people.length - slice }} more...
-      <button
-        class="
-          ml-2 py-1 px-2
-          border-secondary border-1
-          rounded-xl
-          text-sm font-semibold
-        "
-        @click="slice += 100"
-      >
-        Show more
-      </button>
-    </p>
   </div>
 </template>
 
@@ -59,7 +41,6 @@ export default {
   data() {
     return {
       initialCount: 0,
-      slice: 1000,
       people: []
     }
   },
