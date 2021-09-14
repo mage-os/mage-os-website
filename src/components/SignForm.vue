@@ -131,7 +131,7 @@
           })
 
           if (response.status === 200) {
-            this.msg = 'Please confirm your email address to complete signing the letter!'
+            this.msg = 'Check your email to confirm your email address and complete the signing of the letter.'
             window.dispatchEvent(new Event('letter-signed'))
           } else {
             this.msg = 'Something went wrong!'
