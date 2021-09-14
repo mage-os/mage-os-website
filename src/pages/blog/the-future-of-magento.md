@@ -5,12 +5,83 @@ title: The Future of Magento
 description: Open letter to the Magento Community
 groupId: 108619660
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt nunc orci, semper dignissim leo ultricies vel. Fusce augue arcu, vestibulum eu lobortis et, eleifend posuere felis. Duis vitae arcu nunc. Etiam consectetur nisl at bibendum euismod. Nulla facilisi. Donec pretium fringilla tellus, id bibendum lacus interdum vitae. Nunc libero odio, tempor ut posuere et, dignissim a arcu. Integer ac turpis a dui feugiat dignissim. Pellentesque faucibus ac elit a luctus. Mauris rutrum, dui elementum condimentum ultricies, justo arcu lobortis ipsum, vitae commodo mauris tortor eu velit. Etiam bibendum nisi non pharetra ultrices. Ut hendrerit sed nisl ornare maximus. Phasellus vel dignissim purus. Fusce ut quam at mauris faucibus posuere et consequat justo. Vivamus vitae rutrum justo.
 
-Donec sed augue tempor, elementum nisi ut, pellentesque nulla. Integer semper molestie metus, et aliquet lectus viverra vel. Nulla facilisi. Nam vehicula erat a pretium congue. Nam eu semper ligula, quis accumsan leo. Fusce ultricies sagittis eleifend. Proin dictum velit quis ex dignissim, eget aliquet sem vestibulum. Phasellus in lectus purus. Ut sed est urna. Aenean magna sapien, bibendum a malesuada quis, condimentum ut orci.
+# Members in the Slack
 
-Integer enim turpis, volutpat in pellentesque eget, rhoncus in tortor. Praesent vel magna eu lorem rutrum mollis in eget mauris. Aliquam sollicitudin vulputate felis ac porttitor. Phasellus porttitor ultrices nunc vitae euismod. Cras quis porta risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras et elit libero. Mauris et eros id tellus rutrum eleifend.
+- Alessandro Ronchi [signed]
+- Andreas von Studnitz [signed]
+- Anton Siniorg
+- Bartek Igielski [signed - in thread]
+- Christina Philipp [no]
+- Dave Ministy Pain [no]
+- Gennaro Vietri [no]
+- Ignacio Riesco [signed - in thread]
+- Joeren Boersma [signed - in thread]
+- John Hughes [signed]
+- Kamil Balwierz
+- Kuba Zwolinski
+- Mirko Cesaro [no]
+- Nick Jones [no]
+- Oscar Recio [signed]
+- Peter Jaap Blaakmeer [signed - in thread]
+- Rob Tranter [no]
+- Ryan Hoerr [signed]
+- Simon Sprankel [signed]
+- Sonja Franz [no]
+- Thien-Lan Weber
+- Tomas Gerulaitis [signed - in thread]
+- Tomislav Bilic [no]
+- Vinai Kopp [signed]
+- Willem Wigman [signed]
+- Wouter Steenmeijer [signed - in thread]
 
-Nam mattis odio quis mauris aliquet porta. Pellentesque venenatis sit amet nibh a volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu nisl at neque convallis vehicula. Phasellus vehicula ac urna id tempor. Nunc in maximus mi. Suspendisse rutrum turpis nec orci hendrerit, at dignissim magna commodo. Vivamus bibendum tellus tortor, ut dapibus libero ullamcorper malesuada. Maecenas at augue vel sapien ullamcorper mollis. Integer elementum pretium diam ut venenatis. Vestibulum a elit sit amet enim cursus sodales. Nullam eget sapien lacinia, varius eros eget, ultrices tellus. Pellentesque dapibus enim id dictum varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur nec mollis nisi. Nulla massa enim, efficitur eget sem ut, interdum blandit mi.
 
-Quisque imperdiet enim nec lacus vehicula pretium. Phasellus lobortis, urna sit amet venenatis dictum, metus ligula molestie leo, ultrices volutpat nisl arcu quis odio. Quisque dictum diam quis risus convallis, ut mattis odio pretium. Curabitur quis sapien facilisis, varius urna ac, vehicula leo. Proin ultrices viverra enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec finibus sed enim eu viverra. Ut eget cursus nunc, eget rhoncus lectus. Curabitur eu erat a mauris facilisis fringilla vitae et lectus. Duis scelerisque orci in pulvinar gravida. Donec vitae quam molestie, mattis quam vitae, auctor felis. Nulla facilisi. Curabitur convallis lorem sed nisi tincidunt pulvinar. Cras at turpis tempor, varius ligula a, elementum sapien. In purus dolor, vestibulum eu mauris sed, scelerisque fermentum leo. Ut ligula lacus, efficitur nec mattis ac, rhoncus at dolor.
+---
+
+Dear Magento community,
+
+With this open announcement we are letting you know that there will be a community organization driven fork of Magento. The purpose is to secure Magento's long term viability for all the businesses depending on it.
+
+Why do we believe this is the right step?
+
+The Magento ecosystem is big. It’s been the dominant platform for eCommerce for a decade. It has driven innovation in eCommerce and empowered businesses of all sizes. Full of novel ideas born through a vibrant community, it is still unparalleled by any other eCommerce ecosystem out there.
+
+The eCommerce landscape has changed over the years, now offering a wealth of SaaS, PaaS, and other off-premise solutions. Magento under Adobe has determined to do the same. The community is still there, but the enterprise product - now called Adobe Commerce - is moving towards composable microservices hosted in the cloud, only suitable for the largest merchants.
+
+There has been talk about decomposition of the PHP Monolith by Adobe’s technical architects, meaning all parts of the PHP platform will be replaced by (Adobe) microservices. Ultimately, the entire Magento platform as we know it will be replaced.  
+For reference, this was presented at [Adobe Summit 2021 in the talk “Extending Magento Commerce with Adobe I/O”](https://business.adobe.com/summit/2021/sessions/extending-magento-commerce-with-adobe-io-s604.html).
+
+This makes for a lot of unknown variables. There is no public roadmap for Magento Open Source, and this has left a lot of the community (who believe the monolith is a very valid approach in many cases) feeling uneasy about the future of Magento.
+
+So, we want to move forward. We believe we, the community, can maintain and evolve a fork in a way that will carry us into the future.
+
+We intend for this to be a collaborative effort, ideally together with the Magento Association, and (through them) with Adobe. We have already reached out to the Magento Association to work with them, but it will take time to build a common understanding of how to move forward.
+
+The fork will be upstream-compatible with Magento Open Source as long as it is supported by Adobe. That means, when the monolith is ultimately deprecated, all companies who want to remain on the monolith platform will be able to do so.
+
+We want to earn the trust of the Magento ecosystem. We truly believe we can not only keep Magento alive, we can give it a bright future by putting the focus on merchants, big AND small.
+
+This is only the beginning. Magento has a bright future ahead. We invite you to join us.
+
+
+This initiative has been started by the companies and individuals signed below. If you want to publicly show your endorsement and be informed on future updates, please sign this open letter using the form below.
+
+
+
+ *  Willem Wigman,  Hyvä Themes B.V.
+ *  Vinai Kopp,  Hyvä Themes B.V.
+ * Andreas von Studnitz,  integer_net GmbH
+ * Fabian Schmengler,  integer_net GmbH
+ * Ignacio Riesco,  Interactiv4 S.L.
+ * Óscar Recio,  Interactiv4 S.L.
+ * Peter Jaap Blaakmeer,  elgentos
+ * Wouter Steenmeijer,  elgentos
+ * Joeren Boersma,  elgentos
+ * Kuba Zwolinski,  snow.dog
+ * Kamil Balwierz,  snow.dog
+ * Bartek Igielski,  snow.dog
+ * Simon Sprankel,  CustomGento GmbH
+ * Ryan Hoerr,  ParadoxLabs, Inc
+ * Alessandro Ronchi,  Magento Community Maintainer
+ * John Hughes
+ * Tomas Gerulaitis
