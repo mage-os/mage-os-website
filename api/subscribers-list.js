@@ -18,6 +18,7 @@ export default async (request, response) => {
       name: subscriber.name,
       company: subscriber.fields.find(({ key }) => key === 'company')?.value || null
     }))
+    .reverse()
 
   response.send(subsribers)
 }

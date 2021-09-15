@@ -3,19 +3,22 @@ import Layout from './post.astro'
 import SignForm from '../components/SignForm.vue'
 import SignList from '../components/SignList.vue'
 const { content } = Astro.props
+const { groupId } = content
+const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${groupId}`).then(res => res.json())
 ---
 <Layout ...Astro.props>
   <slot />
 
   <SignList
     slot="footer"
-    groupId={content.groupId}
-    client:load
+    groupId={groupId}
+    subscribers={subscribers}
+    client:idle
   />
 
   <SignForm
     slot="footer"
-    groupId={content.groupId}
-    client:load
+    groupId={groupId}
+    client:visible
   />
 </Layout>

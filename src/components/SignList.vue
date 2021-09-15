@@ -1,7 +1,6 @@
 <template>
   <div
     class="mt-4"
-    ref="list"
     v-if="people.length > 0"
   >
     <p class="font-semibold text-xl mb-2">
@@ -29,7 +28,7 @@
     <ul class="grid sm:grid-cols-2">
       <li
         v-for="({ name, company, avatar }) in people"
-        :key="name"
+        :key="`${name}-${avatar}`"
         class="
           flex flex-row items-center
           mb-2
@@ -49,8 +48,12 @@
 <script>
 export default {
   props: {
+    subscribers: {
+      type: Array,
+      required: true
+    },
     groupId: {
-      type: String,
+      type: Number,
       required: true
     }
   },
@@ -65,27 +68,21 @@ export default {
       return this.people.length - this.initialCount
     }
   },
+  created() {
+    this.people = this.subscribers
+  },
   async mounted() {
     await this.getPeople()
     this.initialCount = this.people.length
 
-    window.addEventListener('letter-signed', this.getPeople)
-
     setInterval(this.getPeople, 1000 * 60)
-
-    const observer = new IntersectionObserver(entries => {
-      if (entries[0].isIntersecting) {
-        this.getPeople()
-      }
-    })
-
-    observer.observe(this.$refs.list)
+    window.addEventListener('letter-signed', this.getPeople)
   },
   methods: {
     async getPeople() {
       try {
         const people = await fetch(`/api/subscribers-list?groupId=${this.groupId}`).then(res => res.json())
-        this.people = people.reverse()
+        this.people = people
       } catch (e) {
         // We hit an FUNCTION_INVOCATION_FAILED server error.
       }

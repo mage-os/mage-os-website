@@ -107,7 +107,7 @@
   export default {
     props: {
       groupId: {
-        type: String,
+        type: Number,
         required: true
       }
     },
