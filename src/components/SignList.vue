@@ -25,7 +25,7 @@
       </a>
     </p>
 
-    <ul class="grid sm:grid-cols-2">
+    <ul class="sm:grid sm:grid-cols-2">
       <li
         v-for="({ name, company, avatar }) in people"
         :key="`${name}-${avatar}`"
