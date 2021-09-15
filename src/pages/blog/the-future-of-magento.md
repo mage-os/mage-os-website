@@ -53,5 +53,5 @@ This is only the beginning. Magento has a bright future ahead. We invite you to 
  * *Ryan Hoerr,  ParadoxLabs, Inc*
  * *Thien-Lan Weber, OneStepCheckout*
  * *Alessandro Ronchi,  Magento Community Maintainer*
- * *John Hughes*
+ * *John Hughes, Fisheye Media Ltd.*
  * *Tomas Gerulaitis*
