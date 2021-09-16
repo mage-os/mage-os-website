@@ -67,6 +67,10 @@ export default {
   },
   computed: {
     newSigns() {
+      if (!this.initialCount) {
+        return 0
+      }
+
       return this.people.length - this.initialCount
     }
   },
