@@ -37,7 +37,9 @@
       >
         <img
           class="inline w-5 h-5 mr-2 rounded-full"
-          :src="avatar"
+          :data-src="avatar"
+          width="20"
+          height="20"
         />
         {{ name }}{{ company ? ` @ ${company}` : '' }}
       </li>
@@ -77,6 +79,24 @@ export default {
 
     setInterval(this.getPeople, 1000 * 60)
     window.addEventListener('letter-signed', this.getPeople)
+
+    const lazyImages = [...this.$el.querySelectorAll('img[data-src]')]
+
+    const lazyImageObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          return
+        }
+
+        const lazyImage = entry.target
+        lazyImage.src = lazyImage.dataset.src
+        lazyImageObserver.unobserve(lazyImage)
+      })
+    })
+
+    lazyImages.forEach(lazyImage => {
+      lazyImageObserver.observe(lazyImage)
+    })
   },
   methods: {
     async getPeople() {
