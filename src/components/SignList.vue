@@ -4,7 +4,7 @@
     v-if="people.length > 0"
   >
     <p class="font-semibold text-xl mb-2">
-      Companies &amp; individuals who signed this letter:
+      Companies &amp; individuals who signed this letter
     </p>
 
     <p class="flex items-center flex-col sm:flex-row mb-6">
