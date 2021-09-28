@@ -1,5 +1,5 @@
 ---
-import Layout from './post.astro'
+import Layout from './default.astro'
 import SignForm from '../components/SignForm.vue'
 import SignList from '../components/SignList.vue'
 const { content } = Astro.props
@@ -7,7 +7,25 @@ const { groupId } = content
 const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${groupId}`).then(res => res.json())
 ---
 <Layout ...Astro.props>
-  <slot />
+  <div class="mb-4 mx-auto max-w-prose">
+    <h1
+      class="
+        mb-2
+        text-4xl
+        text-primary font-semibold
+      "
+    >
+      { content.title }
+    </h1>
+
+    <div class="text-gray-400">
+      { new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(content.date))}
+    </div>
+  </div>
+
+  <article class="prose mx-auto">
+    <slot />
+  </article>
 
   <SignList
     slot="footer"
