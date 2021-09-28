@@ -3,7 +3,7 @@ layout: '@/layouts/post.astro'
 date: 2021-09-28
 title: Status Update 2021-09-27
 description: The Future of Magento Open Source - Status Update
-groupId: 108619661
+groupId: 108619660
 ---
 ## The Future of Magento Open Source - Status Update
 
@@ -33,7 +33,7 @@ What differentiates Mage-OS from Magento Open Source and Adobe Commerce?
 
 **Our Value Proposition**
 
-> "If the cake gets bigger, the whole ecosystem wins."
+> If the cake gets bigger, the whole ecosystem wins.
 
 We see the following value propositions for the five key pillars of our Magento ecosystem:
 
