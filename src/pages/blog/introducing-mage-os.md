@@ -15,7 +15,7 @@ First, we would like to thank all the people who added their names to support th
 
 Thank you also to everyone who spent time with us at Meet Magento Poland. We came with the intention to listen, you came with the open-mindedness to share your point of view and many productive discussions came out of it!
 
-Because technically already thousands of forks exist for the Magento 2 project on GitHub, we decided to name our thing a “distribution”. 
+Because technically already thousands of forks exist for the Magento 2 project on GitHub, we decided to name our thing a "distribution". 
 
 
 **Introducing the Mage-OS distribution**
@@ -33,7 +33,7 @@ What differentiates Mage-OS from Magento Open Source and Adobe Commerce?
 
 **Our Value Proposition**
 
-> “If the cake gets bigger, the whole ecosystem wins.”
+> "If the cake gets bigger, the whole ecosystem wins."
 
 We see the following value propositions for the five key pillars of our Magento ecosystem:
 
