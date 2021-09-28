@@ -28,14 +28,12 @@ const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${gr
   </article>
 
   <SignList
-    slot="footer"
     groupId={groupId}
     subscribers={subscribers}
     client:idle
   />
 
   <SignForm
-    slot="footer"
     groupId={groupId}
     client:visible
   />
