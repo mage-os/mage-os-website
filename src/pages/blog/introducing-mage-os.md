@@ -1,7 +1,7 @@
 ---
 layout: '@/layouts/post.astro'
 date: 2021-09-28
-title: Status Update 2021-09-27
+title: Status Update 2021-09-28
 description: The Future of Magento Open Source - Status Update
 groupId: 108619660
 ---
