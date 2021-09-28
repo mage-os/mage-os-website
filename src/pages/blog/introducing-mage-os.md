@@ -2,10 +2,10 @@
 layout: '@/layouts/post.astro'
 date: 2021-09-28
 title: Status Update 2021-09-27
-description: The Future of Magento Open Source - Status Update 2021-09-27
+description: The Future of Magento Open Source - Status Update
 groupId: 108619661
 ---
-## The Future of Magento Open Source - Status Update 2021-09-27
+## The Future of Magento Open Source - Status Update
 
 Since we posted the [initial open letter](https://www.mage-os.community/blog/the-future-of-magento) on September 14th a lot has happened. 
 
