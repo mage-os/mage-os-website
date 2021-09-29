@@ -55,3 +55,5 @@ This is only the beginning. Magento has a bright future ahead. We invite you to 
  * *Alessandro Ronchi,  Magento Community Maintainer*
  * *John Hughes, Fisheye Media Ltd.*
  * *Tomas Gerulaitis*
+
+*Please note our [follow up post](https://www.mage-os.community/blog/introducing-mage-os) on 28. September 2021.*
