@@ -83,7 +83,8 @@ export default {
 
     setInterval(this.getPeople, 1000 * 60)
     window.addEventListener('letter-signed', this.getPeople)
-
+  },
+  updated() {
     const lazyImages = [...this.$el.querySelectorAll('img[data-src]')]
 
     const lazyImageObserver = new IntersectionObserver(entries => {
