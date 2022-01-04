@@ -20,5 +20,6 @@ export default async (request, response) => {
     }))
     .reverse()
 
-  response.send(subsribers)
+  response.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
+  response.json(subsribers)
 }
