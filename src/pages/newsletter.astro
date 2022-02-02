@@ -1,0 +1,9 @@
+---
+import Layout from '@/layouts/default.astro'
+import Newsletter from '@/components/Newsletter.astro'
+
+const posts = Astro.fetchContent('./blog/*.*')
+---
+<Layout>
+  <Newsletter />
+</Layout>
