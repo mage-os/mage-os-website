@@ -1,6 +1,7 @@
 ---
 import Layout from './default.astro'
 const { content } = Astro.props
+import Newsletter from '../components/Newsletter.astro'
 ---
 <Layout ...Astro.props>
   <div class="mb-4 mx-auto max-w-prose">
@@ -22,4 +23,6 @@ const { content } = Astro.props
   <article class="prose mx-auto">
     <slot />
   </article>
+
+  <Newsletter />
 </Layout>
