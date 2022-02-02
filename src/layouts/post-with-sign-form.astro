@@ -1,7 +1,7 @@
 ---
 import Layout from './default.astro'
-import SignForm from '../components/SignForm.vue'
 import SignList from '../components/SignList.vue'
+import Newsletter from '../components/Newsletter.astro'
 const { content } = Astro.props
 const { groupId } = content
 const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${groupId}`).then(res => res.json())
@@ -33,8 +33,7 @@ const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${gr
     client:idle
   />
 
-  <SignForm
-    groupId={groupId}
-    client:visible
+  <Newsletter
+    client:idle
   />
 </Layout>

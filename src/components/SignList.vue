@@ -4,14 +4,13 @@
     v-if="people.length > 0"
   >
     <p class="font-semibold text-xl mb-2">
-      Companies &amp; individuals who signed this letter
+      {{ people.length }} Companies &amp; individuals signed this letter
     </p>
 
     <p class="flex items-center flex-col sm:flex-row mb-6">
-      {{ people.length }} people signed this letter{{ newSigns > 0 ? `, ${newSigns} new since you are there` : '' }}
-
+      List is now closed, but you can
       <a
-        href="#sign-form"
+        href="#newsletter"
         class="
           ml-2 px-4 py-1
           text-gray-100 font-semibold
@@ -21,7 +20,7 @@
           transition-colors
         "
       >
-        Sign the letter
+        Subscribe to the newsletter
       </a>
     </p>
 
