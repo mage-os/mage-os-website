@@ -2,7 +2,7 @@
 layout: '@/layouts/post.astro'
 date: 2022-02-02
 title: Mage-OS update January 2022
-description: More about the progress of Mage-OS buidling
+description: An update on last months progress on Mage-OS
 ---
 
 ## Mage-OS update January 2022
@@ -65,7 +65,7 @@ We will publish both the fork, the build scripts and all documentation on the pr
 
 These processes will be up for discussion as soon as we’ve published it and invited anyone interested into our Discord (see “The Community” below).
 
-The Fork is just a contingency fallback for when the day comes large deprecations might happen on the official Magento repository or when those would go away all at once.
+The Fork is just a contingency fallback for when the day comes when large deprecations might happen on the official Magento repository or when those would go away all at once.
 You might remember when Magento 1 was deprecated, not only the repository was gone, but also the merchant documentation.
 
 We want to be prepared for any scenario in the future, and have complete ownership over a copy of the product and have the knowledge to maintain such an infrastructure.
@@ -76,7 +76,7 @@ This also includes the merchant documentation.
 The interesting part will be the work on our own distribution. We imagine building a version of Magento that allows us a lot more flexibility to evolve.
 
 This would include:
-* Removing optional functionalities in core, such as a choice between mysql search or elastic search, or removing MSI (Multi Stock Inventory) by default
+* Removing optional functionalities in core, such as a choice between MySQL search or Elasticsearch, or removing MSI (Multi Stock Inventory) by default
 * Implement bug fixes faster
 * Implement performance improvements faster
 * Include new features
@@ -136,9 +136,10 @@ We’re planning to start bringing out regular updates on progress. Please make 
 * A new website to replace the current mage-os.org site with background information, a blog and merchant information about Magento
 * Progress updates on the Mage-OS distribution
 
-[Sign up to our mailing list here](#newsletter)
+[Sign up to our mailing list below](#newsletter)
 
 Thank you,
+
 The Mage-OS team,
 
 * Willem Wigman, Hyvä Themes B.V.
