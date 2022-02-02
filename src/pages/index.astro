@@ -2,7 +2,12 @@
 import Layout from '@/layouts/default.astro'
 import PostPreviewList from '@/components/PostPreviewList.astro'
 
-const posts = Astro.fetchContent('./blog/*.*')
+const rawPosts = Astro.fetchContent('./blog/*.*')
+const posts = rawPosts.sort((a, b) => {
+  a = new Date(a.date)
+  b = new Date(b.date)
+  return b - a
+})
 ---
 <Layout>
   <PostPreviewList posts={posts} />
