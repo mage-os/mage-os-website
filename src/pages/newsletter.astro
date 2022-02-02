@@ -1,7 +1,12 @@
 ---
 import Layout from '@/layouts/default.astro'
 import Newsletter from '@/components/Newsletter.astro'
+
+const content = {
+  title: 'Newsletter',
+}
+
 ---
-<Layout>
+<Layout content={content} >
   <Newsletter />
 </Layout>
