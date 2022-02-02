@@ -1,10 +1,10 @@
 <template>
   <div
     class="mt-4"
-    v-if="people.length > 0"
+    v-if="subscribers.length > 0"
   >
     <p class="font-semibold text-xl mb-2">
-      {{ people.length }} Companies &amp; individuals signed this letter
+      {{ subscribers.length }} Companies &amp; individuals signed this letter
     </p>
 
     <p class="flex items-center flex-col sm:flex-row mb-6">
@@ -26,7 +26,7 @@
 
     <ul class="sm:grid sm:grid-cols-2">
       <li
-        v-for="({ name, company, avatar }) in people"
+        v-for="({ name, company, avatar }) in subscribers"
         :key="`${name}-${avatar}`"
         class="
           flex flex-row items-center
@@ -58,32 +58,7 @@ export default {
       required: true
     }
   },
-  data() {
-    return {
-      initialCount: 0,
-      people: []
-    }
-  },
-  computed: {
-    newSigns() {
-      if (!this.initialCount) {
-        return 0
-      }
-
-      return this.people.length - this.initialCount
-    }
-  },
-  created() {
-    this.people = this.subscribers
-  },
-  async mounted() {
-    await this.getPeople()
-    this.initialCount = this.people.length
-
-    setInterval(this.getPeople, 1000 * 60)
-    window.addEventListener('letter-signed', this.getPeople)
-  },
-  updated() {
+  mounted() {
     const lazyImages = [...this.$el.querySelectorAll('img[data-src]')]
 
     const lazyImageObserver = new IntersectionObserver(entries => {
@@ -101,16 +76,6 @@ export default {
     lazyImages.forEach(lazyImage => {
       lazyImageObserver.observe(lazyImage)
     })
-  },
-  methods: {
-    async getPeople() {
-      try {
-        const people = await fetch(`/api/subscribers-list?groupId=${this.groupId}`).then(res => res.json())
-        this.people = people
-      } catch (e) {
-        // We hit an FUNCTION_INVOCATION_FAILED server error.
-      }
-    }
   }
 }
 </script>
