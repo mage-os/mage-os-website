@@ -10,6 +10,6 @@ Their contact information can be found publicly on the respective websites.
 
 Representative contact regarding all matters of the website is Vinai Kopp.
 
-Email: vinai@hyva.io  
+Email: info@mage-os.org  
 Address: Reichensteinstr. 36, 69151 Neckargemünd, Germany
 
