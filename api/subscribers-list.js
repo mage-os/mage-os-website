@@ -10,6 +10,9 @@ export default async (request, response) => {
       url: `https://api.mailerlite.com/api/v2/groups/${request.query.groupId}/subscribers/active?limit=5000`,
       headers: {
         'X-MailerLite-ApiKey': apiKey,
+      },
+      timeout: {
+        request: 300000
       }
     }).json()
 
@@ -21,7 +24,7 @@ export default async (request, response) => {
       }))
       .reverse()
 
-    response.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
+    response.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=2592000')
     response.json(subsribers)
 
   }
