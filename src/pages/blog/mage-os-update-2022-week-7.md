@@ -35,7 +35,10 @@ We also agreed that by continuing to work independently of the MA as part of the
 
 ### Magento STS vs LTS
 
-Without having confirmation from Adobe, we found it likely they will not provide security related updates as a vendor. We hope there will be a lot of collaboration though so the release of security related patches can be coordinated.
+We discussed how STS and LTS security updates might be handled, and who might be able to provide vendor based support.  
+Since Adobe wants to hand ownership of Magento STS to the community, they might not be able to provide security patches.  
+We are convinced there is a shared interest in collaboration on this topic, and that a way to coordinate the release of security related patches can be found.  
+This will be a topic for further discussion in the Magento Open Source Task Force.
 
 ### Magento Open Source Content
 
@@ -44,7 +47,7 @@ Should Adobe or the Magento Association also decide to provide such content, we 
 
 ### Magento and Adobe Commerce Support
 
-During the last Magento Open Source Task Force meeting we discussed the lack of publicly available long term support information for both Adobe Commerce as well as Magento Open Source. Adobe members of the task force agreed that should be made available and stated they would look into it.
+During the last Magento Open Source Task Force meeting we discussed the lack of publicly available long term support information for both Adobe Commerce and Magento Open Source. Adobe members of the task force agreed that should be made available and stated they would look into it.
 
 ### Docker Hub Username
 
