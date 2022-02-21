@@ -7,7 +7,7 @@ groupId: 108619660
 ---
 ## The Future of Magento Open Source - Status Update
 
-Since we posted the [initial open letter](https://www.mage-os.community/blog/the-future-of-magento) on September 14th a lot has happened. 
+Since we posted the [initial open letter](https://www.mage-os.org/blog/the-future-of-magento) on September 14th a lot has happened. 
 
 **Thank you**
 
