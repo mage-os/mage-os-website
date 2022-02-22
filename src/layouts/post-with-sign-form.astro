@@ -32,10 +32,7 @@ const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${gr
   <SignList
     groupId={groupId}
     subscribers={subscribers}
-    client:idle
   />
 
-  <Newsletter
-    client:idle
-  />
+  <Newsletter />
 </Layout>
