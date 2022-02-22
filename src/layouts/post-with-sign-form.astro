@@ -2,8 +2,10 @@
 import Layout from './default.astro'
 import SignList from '../components/SignList.vue'
 import Newsletter from '../components/Newsletter.astro'
+
 const { content } = Astro.props
 const { groupId } = content
+
 const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${groupId}`).then(res => res.json())
 ---
 <Layout ...Astro.props>
