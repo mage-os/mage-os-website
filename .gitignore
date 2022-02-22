@@ -4,6 +4,8 @@ dist
 # dependencies
 node_modules/
 .snowpack/
+.yarn/
+.yarnrc.yml
 
 # logs
 npm-debug.log*
