@@ -17,7 +17,7 @@ Like a good friend said: "it’s business as usual, but we also have to do more,
 ### Mirror distribution
 
 The purpose of the mirror distribution is to provide an independent installation source for Magento Open Source, and to facilitate learning about building a Magento composer repository.
-The mirror repository provides can be used to install Magento Open Source independently of the Adobe owned repositories.  
+The mirror repository can be used to install Magento Open Source independently of the Adobe owned repositories.  
 Each new Magento Open Source release will be added when it becomes available.
 
 We are able to create a Magento Open Source composer package repository from our forked repositories at [github.com/mage-os](https://github.com/mage-os).  
