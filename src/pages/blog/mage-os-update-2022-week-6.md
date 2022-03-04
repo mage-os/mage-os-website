@@ -2,7 +2,7 @@
 layout: '@/layouts/post.astro'
 date: 2022-02-11
 title: Week 5 & 6 of 2022
-description: An update on last months progress on Mage-OS
+description: An update on last month's progress on Mage-OS
 ---
 
 Every Tuesday we have a meeting to discuss technical topics, and every Wednesday we have a meeting regarding organizational topics.

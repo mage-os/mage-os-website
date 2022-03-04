@@ -2,7 +2,7 @@
 layout: '@/layouts/post.astro'
 date: 2022-02-20
 title: Week 7 of 2022
-description: An update on last months progress on Mage-OS
+description: An update on last week's progress on Mage-OS
 ---
 
 Welcome to an update fresh out of the Mage-OS kitchen.
