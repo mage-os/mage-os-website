@@ -1,7 +1,7 @@
 ---
 layout: '@/layouts/post.astro'
 date: 2022-03-04
-title: Week 8 & 9 of 2022
+title: Week 8 and 9 of 2022
 description: An update on last week's progress on Mage-OS
 ---
 
