@@ -36,7 +36,8 @@
       >
         <img
           class="inline w-5 h-5 mr-2 rounded-full"
-          :data-src="avatar"
+          :src="avatar"
+          loading="lazy"
           width="20"
           height="20"
         />
@@ -57,25 +58,6 @@ export default {
       type: Number,
       required: true
     }
-  },
-  mounted() {
-    const lazyImages = [...this.$el.querySelectorAll('img[data-src]')]
-
-    const lazyImageObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-          return
-        }
-
-        const lazyImage = entry.target
-        lazyImage.src = lazyImage.dataset.src
-        lazyImageObserver.unobserve(lazyImage)
-      })
-    })
-
-    lazyImages.forEach(lazyImage => {
-      lazyImageObserver.observe(lazyImage)
-    })
   }
 }
 </script>

@@ -1,9 +1,9 @@
 export default {
   buildOptions: {
-    site: 'https://mage-os.community',
-    sitemap: true,
+    site: 'https://mage-os.org',
+    sitemap: true
   },
-  devOptions: {
-    tailwindConfig: './tailwind.config.js'
-  }
+  renderers: [
+    '@astrojs/renderer-vue'
+  ]
 }

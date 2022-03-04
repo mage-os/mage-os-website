@@ -1,7 +1,7 @@
 ---
 layout: '@/layouts/post.astro'
 date: 2022-02-11
-title: Week 5 & 6 of 2022
+title: Week 5 and 6 of 2022
 description: An update on last month's progress on Mage-OS
 ---
 
