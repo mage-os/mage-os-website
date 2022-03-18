@@ -21,6 +21,6 @@ Again, this data is also subject to the mailerlite privacy-policy.
 Beside mailerlite, we will not give any other third party access to the visitor name, email address and company name.  
 We reserve the right to send an email to all signees in future to inform about significant developments in regards to the future of Magento Open Source.
 
-If requested by the owner of the email via a message to vinai@hyva.io, we will remove their name from the signature list should someone choose to change their mind.
+If requested by the owner of the email via a message to info@mage-os.org, we will remove their name from the signature list should someone choose to change their mind.
 
-For further questions regarding the collection and use of personal data, please contact vinai@hyva.io.
+For further questions regarding the collection and use of personal data, please contact info@mage-os.org.
