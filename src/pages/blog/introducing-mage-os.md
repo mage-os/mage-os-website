@@ -7,15 +7,15 @@ groupId: 108619660
 ---
 ## The Future of Magento Open Source - Status Update
 
-Since we posted the [initial open letter](https://www.mage-os.org/blog/the-future-of-magento) on September 14th a lot has happened. 
+Since we posted the [initial open letter](/blog/the-future-of-magento) on September 14th a lot has happened.
 
 **Thank you**
 
-First, we would like to thank all the people who added their names to support the initiative and who have reached out personally to encourage. 
+First, we would like to thank all the people who added their names to support the initiative and who have reached out personally to encourage.
 
 Thank you also to everyone who spent time with us at Meet Magento Poland. We came with the intention to listen, you came with the open-mindedness to share your point of view and many productive discussions came out of it!
 
-Because technically already thousands of forks exist for the Magento 2 project on GitHub, we decided to name our thing a "distribution". 
+Because technically already thousands of forks exist for the Magento 2 project on GitHub, we decided to name our thing a "distribution".
 
 
 **Introducing the Mage-OS distribution**
@@ -37,7 +37,7 @@ What differentiates Mage-OS from Magento Open Source and Adobe Commerce?
 
 We see the following value propositions for the five key pillars of our Magento ecosystem:
 
-*Mage-OS for Merchants*  
+*Mage-OS for Merchants*
 * Faster time to market: our technology is simpler and more accessible to a majority of developers.
 * Provides a growth path from the small beginning up to Adobe Commerce and Experience Manager
 * Reduced hosting costs due to simpler environmental requirements
@@ -64,7 +64,7 @@ We see the following value propositions for the five key pillars of our Magento 
 
 *Mage-OS for Adobe*
 * Reduced pressure on the Magento Open Source GitHub PR/Issue list.
-* Breeding ground for innovations: create a protective buffer between community contributions and Adobe Commerce to safeguard stability.  
+* Breeding ground for innovations: create a protective buffer between community contributions and Adobe Commerce to safeguard stability.
   Community contributions can be evaluated in production environments without the risk of introducing instability to Magento Open Source or, by extension, Adobe Commerce.
 * Create a funnel for merchants exhibiting the biggest growth from Mage-OS into Adobe Commerce and Adobe Experience Manager.
 * Protect and grow the lower-end Magento SMB market market share.
@@ -72,34 +72,34 @@ We see the following value propositions for the five key pillars of our Magento 
 
 **The next steps**
 
-The Magento Association is moving to take a larger role representing the whole community. We are hopeful that in time it will become the organization to take ownership of the Mage-OS distribution.   
+The Magento Association is moving to take a larger role representing the whole community. We are hopeful that in time it will become the organization to take ownership of the Mage-OS distribution.
 As such, the next couple of weeks will be spent running conversations with the right people in the Association and within Adobe.
 
-In the meantime, we are engaged in the design and setup of the infrastructure and processes to make Mage-OS a sustainable long-term project.  
-When we are satisfied with it, we will open it up to the public. 
+In the meantime, we are engaged in the design and setup of the infrastructure and processes to make Mage-OS a sustainable long-term project.
+When we are satisfied with it, we will open it up to the public.
 
 As soon as there are further newsworthy developments, we will communicate them timely.
 
-Thank you,  
+Thank you,
 The Mage Open Source Community Alliance (MOSCA)
 
 
- * *Willem Wigman,  Hyvä Themes B.V.*
- * *Vinai Kopp,  Hyvä Themes B.V.*
- * *Andreas von Studnitz,  integer_net GmbH*
- * *Fabian Schmengler,  integer_net GmbH*
- * *Ignacio Riesco,  Interactiv4 S.L.*
- * *Óscar Recio,  Interactiv4 S.L.*
- * *Peter Jaap Blaakmeer,  elgentos*
- * *Wouter Steenmeijer,  elgentos*
- * *Jeroen Boersma,  elgentos*
- * *Kuba Zwolinski,  snow.dog*
- * *Kamil Balwierz,  snow.dog*
- * *Bartek Igielski,  snow.dog*
- * *Simon Sprankel,  CustomGento GmbH*
- * *Ryan Hoerr,  ParadoxLabs, Inc*
+ * *Willem Wigman, Hyvä Themes B.V.*
+ * *Vinai Kopp, Hyvä Themes B.V.*
+ * *Andreas von Studnitz, integer_net GmbH*
+ * *Fabian Schmengler, integer_net GmbH*
+ * *Ignacio Riesco, Interactiv4 S.L.*
+ * *Óscar Recio, Interactiv4 S.L.*
+ * *Peter Jaap Blaakmeer, elgentos*
+ * *Wouter Steenmeijer, elgentos*
+ * *Jeroen Boersma, elgentos*
+ * *Kuba Zwolinski, snow.dog*
+ * *Kamil Balwierz, snow.dog*
+ * *Bartek Igielski, snow.dog*
+ * *Simon Sprankel, CustomGento GmbH*
+ * *Ryan Hoerr, ParadoxLabs, Inc*
  * *Thien-Lan Weber, OneStepCheckout*
- * *Alessandro Ronchi,  Magento Community Maintainer*
+ * *Alessandro Ronchi, Magento Community Maintainer*
  * *John Hughes, Fisheye Media Ltd.*
  * *Tomas Gerulaitis*
  * *Ivan Chepurnyi, EcomDev B.V.*

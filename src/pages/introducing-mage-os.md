@@ -3,7 +3,7 @@ layout: '@/layouts/document.astro'
 title: Introducing Mage-OS
 description: Introducing Mage-OS
 ---
-Since we posted the [initial open letter](https://www.mage-os.org/blog/the-future-of-magento) on September 14th a lot has happened.
+Since we posted the [initial open letter](/blog/the-future-of-magento) on September 14th a lot has happened.
 
 **Thank you**
 
@@ -74,10 +74,10 @@ As such, the next couple of weeks will be spent running conversations with the r
 In the meantime, we are engaged in the design and setup of the infrastructure and processes to make Mage-OS a sustainable long-term project.
 When we are satisfied with it, we will open it up to the public.
 
-As soon as there are further newsworthy developments, we will communicate them timely.
+We post the updates regulary [on the blog](/). You can also check [the Github](https://github.com/mage-os) for technical updates.
 
 Thank you,
-The Mage Open Source Community Alliance (MOSCA)
+The Mage-OS Team
 
  * *Willem Wigman, Hyvä Themes B.V.*
  * *Vinai Kopp, Hyvä Themes B.V.*
