@@ -39,7 +39,7 @@ To set the initial board and committees, we chose people that devoted their time
 * Vinai Kopp (DE)
 * Ignacio Riesco (ES)
 * Alessandro Ronchi (IT)
-* Simon Sprakel (DE)
+* Simon Sprankel (DE)
 * Wouter Steenmeijer (NL)
 * Thien-Lan Weber (FR)
 
