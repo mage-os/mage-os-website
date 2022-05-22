@@ -1,12 +1,17 @@
 ---
 
 ---
-<header class="mb-4">
+<header
+  class="
+    mb-8
+    flex flex-wrap items-center
+    border-b border-gray-400
+  ">
   <a
     href="/"
     class="
-      block
-      py-8
+      inline-flex
+      py-2 md:py-8
       text-gray-600 hover:text-primary
       transition-colors
     "
@@ -17,17 +22,19 @@
         text-2xl md:text-3xl text-center
         font-semibold
       "
+      title="The Mage-OS Alliance"
     >
       Mage-OS
     </span>
-
-    <span
-      class="
-        block
-        text-center
-      "
-    >
-      The Magento OS Community Alliance
-    </span>
   </a>
+  
+  <nav class="inline-flex w-full md:flex-grow md:w-auto">
+    <ul class="flex flex-row w-full md:w-auto md:ml-auto justify-between gap-2 md:gap-4 xl:gap-8">
+      <li class="flex-auto hidden md:block"><a class="block py-4 hover:text-primary transition-colors text-center" href="/">Home</a></li>
+      <li class="flex-auto"><a class="block py-4 hover:text-primary transition-colors text-center" href="/distribution">Get Mage-OS</a></li>
+      <li class="flex-auto"><a class="block py-4 hover:text-primary transition-colors text-center" href="/get-involved">Get Involved</a></li>
+      <li class="flex-auto"><a class="block py-4 hover:text-primary transition-colors text-center" href="/organization/about">About</a></li>
+      <li class="flex-auto"><a class="block py-4 hover:text-primary transition-colors text-center" href="/blog">Blog</a></li>
+    </ul>
+  </nav>
 </header>

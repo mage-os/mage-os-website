@@ -1,0 +1,16 @@
+---
+import Layout from '@/layouts/default.astro'
+import PostPreviewList from '@/components/PostPreviewList.astro'
+
+const rawPosts = Astro.fetchContent('./*.md')
+const posts = rawPosts.sort((a, b) => {
+  a = new Date(a.date)
+  b = new Date(b.date)
+  return b - a
+})
+---
+
+<Layout>
+  TODO: Paginate posts
+  <PostPreviewList posts={posts} />
+</Layout>

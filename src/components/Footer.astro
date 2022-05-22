@@ -3,19 +3,24 @@ const year = new Date().getFullYear()
 ---
 <footer
   class="
-    flex flex-col md:flex-row justify-between gap-4
-    mt-8 py-6
+    mt-8 py-8
     border-t border-gray-400 text-gray-600
   "
 >
-  <div class="flex gap-4">
-    <a href="/newsletter">Newsletter</a>
-    <a href="/imprint">Imprint</a>
-    <a href="/privacy-policy">Privacy Policy</a>
-    <a href="/code-of-conduct">Code of Conduct</a>
-  </div>
+  <div class="
+    flex flex-col md:flex-row justify-between gap-4
+  ">
+    <div class="flex gap-4">
+      <a href="/newsletter">Newsletter</a>
+      <a href="/imprint">Imprint</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/code-of-conduct">Code of Conduct</a>
+    </div>
 
-  <p>
-    {year} &copy; Mage Open Source Community Alliance
-  </p>
+    <p>
+      {year} &copy; The Mage-OS Alliance
+    </p>
+  </div>
+  
+  <p class="pt-4 text-sm text-gray-400">Magento<sup>®</sup> is a registered trademark of Adobe Inc. Mage-OS is not associated with Adobe or Magento Open Source in any way.</p>
 </footer>

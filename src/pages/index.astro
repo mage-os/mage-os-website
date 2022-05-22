@@ -9,6 +9,14 @@ const posts = rawPosts.sort((a, b) => {
   return b - a
 })
 ---
+
 <Layout>
+  <div class="my-8">
+    <p class="pb-2">Mage-OS is a community-driven initiative to ensure the continued innovation and success of the Magento<sup>®</sup> platform.</p>
+    <p class="pb-2">We invite everyone to join us, and help create the future of open source ecommerce.</p>
+  </div>
+
+  <h2 class="py-4 text-xl">Updates</h2>
+  TODO: Show latest 5? updates only on the index page
   <PostPreviewList posts={posts} />
 </Layout>
