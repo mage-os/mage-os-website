@@ -22,16 +22,41 @@ Mage-OS is incorporated in Poland, but is represented worldwide.
 
 ### Committees
 
-- Business Control Committee - *Lead: Maciej Kalkowski (PL)*
-- Magento Content Committee - *Lead: John Hughes (UK)*
+- Business Control Committee
+  - Maciej Kalkowski (PL) - *Lead*
+  - Simon Sprankel (DE)
+- Magento Content Committee
+  - John Hughes (UK) - *Lead*
+  - Maier Bianchi (US)
+  - Arron Moss (UK)
+  - Brent Peterson (US)
+  - Damien Retzinger (US)
+  - Thien-Lan Weber (FR)
+  - Willem Wigman (DE)
 
 ## Our Mission and Values
 
 We want to see Magento prosper.
 
+We have the following goals:
+- Grow the community
+- Nurture good vibes and values
+- Increase ecosystem market share
+- Increase confidence in the Magento ecosystem
+- Sustain Magento as a leading platform for custom ecommerce development
+
+We intend to accomplish those goals by:
+- Coordinating and funding the development and long-term support of Mage-OS
+- Creating quality content that supports the long-term livelihood of the platform
+- Funding and supporting events that align with the association goals
+- Providing documentation and education/certification paths
+- Supporting organizations empowering the Magento Open Source ecosystem
+- Providing leads and job opportunities for members
+- Provide insights, research, and materials to support those outcomes
+
 ## Vision
 
-Our intention is to foster the growth and evolution of the community by taking steps to simplify and modernize the platform, encourage developer uptake, reinvigorate the supporting community, and give merchants the support and confidence they need to choose Mage-OS for their ecommerce needs.
+Our intention is to foster the growth and long-term success of the community by taking steps to simplify and modernize the platform, encourage developer uptake, reinvigorate the supporting community, and give merchants the support and confidence they need to choose Mage-OS for their ecommerce needs.
 
 Our vision for the Mage-OS project starts with these key steps:
 
