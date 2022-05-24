@@ -4,9 +4,16 @@ title: Mage-OS Distribution
 description: Mage-OS Distribution
 ---
 
-TODO
-- What is Mage-OS
-- Why use Mage-OS
+## About the Mage-OS Distribution
+
+Mage-OS is an upstream compatible, lightweight composition of Magento Open Source packages. Some of those packages will contain changes, and some will be entirely new. We aim to keep it compatible with all existing Magento 2 extensions and integrations to the greatest extent possible.
+
+What differentiates Mage-OS from Magento Open Source and Adobe Commerce?
+
+* Independent and community-driven
+* More accessible to developers and contribution
+* Lightweight package selection by default
+* Simple migration to and from Magento Open Source
 
 ## Installation
 
