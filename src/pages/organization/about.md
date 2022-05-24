@@ -32,7 +32,7 @@ Mage-OS is incorporated in Poland, but is represented worldwide.
   - Brent Peterson (US)
   - Damien Retzinger (US)
   - Thien-Lan Weber (FR)
-  - Willem Wigman (DE)
+  - Willem Wigman (NL)
 
 ## Our Mission and Values
 
