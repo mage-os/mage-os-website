@@ -34,7 +34,7 @@ You can obtain packages through the following public Magento mirror repositories
 
 - US: ...
 - EU: [mirror.mage-os.org](https://mirror.mage-os.org)
-- EU: ...
+- EU: [mage-os.hypernode.com/mirror/](https://mage-os.hypernode.com/mirror/) *(Hypernode)*
 
 These Magento mirrors can be used to install Magento Open Source 2.4 or above without authentication. For instance:
 
