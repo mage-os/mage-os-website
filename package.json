@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node inline-styles.mjs"
+    "build": "astro build && node inline-styles.mjs && cp -R public/socials dist"
   },
   "dependencies": {
     "@astrojs/tailwind": "^0.2.1",
