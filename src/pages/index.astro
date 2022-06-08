@@ -1,14 +1,24 @@
 ---
 import Layout from '@/layouts/default.astro'
 import PostPreviewList from '@/components/PostPreviewList.astro'
+import Button from '@/components/Button.astro'
 
 const rawPosts = Astro.fetchContent('./blog/*.*')
-const posts = rawPosts.sort((a, b) => {
-  a = new Date(a.date)
-  b = new Date(b.date)
-  return b - a
-})
+const posts = rawPosts
+  .sort((a, b) => {
+    a = new Date(a.date)
+    b = new Date(b.date)
+    return b - a
+  })
+  .slice(0, 5)
 ---
 <Layout>
   <PostPreviewList posts={posts} />
+
+  <Button
+    href="/blog/1"
+    class="flex justify-center mt-4"
+  >
+    View all posts
+  </Button>
 </Layout>
