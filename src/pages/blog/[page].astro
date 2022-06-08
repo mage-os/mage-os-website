@@ -1,12 +1,10 @@
 ---
 export async function getStaticPaths({ paginate }) {
-  const rawPosts = Astro.fetchContent('./*.md')
+  const rawPosts = await Astro.glob('./*.md')
 
-  const posts = rawPosts.sort((a, b) => {
-    a = new Date(a.date)
-    b = new Date(b.date)
-    return b - a
-  })
+  const posts = rawPosts
+    .map(({ url, frontmatter }) => ({ url, ...frontmatter }))
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
 
   return paginate(posts, { pageSize: 10 })
 }

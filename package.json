@@ -6,14 +6,14 @@
     "build": "astro build && node inline-styles.mjs"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1",
-    "astro": "^0.23.0",
-    "autoprefixer": "^10.4.2",
+    "@astrojs/tailwind": "^0.2.1",
+    "@astrojs/vue": "^0.1.5",
+    "@tailwindcss/typography": "^0.5.2",
+    "astro": "^0.26.1",
     "globby": "^13.1.1",
     "got": "^11.8.2",
     "md5": "^2.3.0",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^2.2.9"
+    "vue": "^3.2.37"
   },
   "volta": {
     "node": "14.19.0"

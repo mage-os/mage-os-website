@@ -3,13 +3,10 @@ import Layout from '@/layouts/default.astro'
 import PostPreviewList from '@/components/PostPreviewList.astro'
 import Button from '@/components/Button.astro'
 
-const rawPosts = Astro.fetchContent('./blog/*.*')
+const rawPosts = await Astro.glob('./blog/*.md')
 const posts = rawPosts
-  .sort((a, b) => {
-    a = new Date(a.date)
-    b = new Date(b.date)
-    return b - a
-  })
+  .map(({ url, frontmatter }) => ({ url, ...frontmatter }))
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
   .slice(0, 5)
 ---
 <Layout>

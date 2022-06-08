@@ -1,9 +1,10 @@
 ---
 export async function getStaticPaths({rss}) {
-  const allPosts = Astro.fetchContent('../*.*')
-  const sortedPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const allPosts = await Astro.glob('../*.md')
+  const sortedPosts = allPosts
+    .map(({ url, frontmatter }) => ({ url, ...frontmatter }))
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
 
-  // Generate an RSS feed from this collection
   rss({
     // The RSS Feed title, description, and custom metadata.
     title: 'Mage-OS Blog',
