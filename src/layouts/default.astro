@@ -9,7 +9,7 @@ const stylesUrl = Astro.resolve('../assets/styles/global.css')
 const { content } = Astro.props
 const title = content?.title || 'Mage-OS'
 const description = content?.description || 'The Magento OS Community Alliance'
-
+const permalink = Astro.canonicalURL.href
 
 const image = generateSocialImage({
   backgroundColor: '#0f172a',
@@ -59,6 +59,7 @@ const image = generateSocialImage({
       title={ title }
       description={ content?.description || description }
       image={ image.url }
+      permalink={ permalink }
     />
   </head>
 
