@@ -3,12 +3,11 @@ const year = new Date().getFullYear()
 ---
 <footer
   class="
-    flex flex-col md:flex-row justify-between gap-4
     mt-8 py-6
     border-t border-gray-400 text-gray-600
   "
 >
-  <div class="flex gap-4">
+  <div class="flex flex-col md:flex-row justify-between gap-4">
     <a href="/newsletter">Newsletter</a>
     <a href="https://discord.gg/nvZDVA2NdC" target="_blank" rel="noopener">Discord</a>
     <a href="/imprint">Imprint</a>
@@ -16,7 +15,7 @@ const year = new Date().getFullYear()
     <a href="/code-of-conduct">Code of Conduct</a>
   </div>
 
-  <p>
+  <p class="mt-4 text-right">
     {year} &copy; Mage Open Source Community Alliance
   </p>
 </footer>
