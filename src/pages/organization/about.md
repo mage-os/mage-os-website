@@ -1,10 +1,10 @@
 ---
 layout: '@/layouts/document.astro'
-title: About the Mage-OS Alliance
-description: About the Mage-OS Alliance
+title: About the Mage-OS Association
+description: About the Mage-OS Association
 ---
 
-The Mage-OS Alliance is a non-profit association formed by people within the Magento community to represent and further the interests of that community as a whole: Merchants, developers, agencies, and all of the many people supporting and supported by this ecosystem.
+The Mage-OS Association is a non-profit association formed by people within the Magento community to represent and further the interests of that community as a whole: Merchants, developers, agencies, and all of the many people supporting and supported by this ecosystem.
 
 Mage-OS is incorporated in Poland, but is represented worldwide.
 

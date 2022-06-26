@@ -1,7 +1,7 @@
 ---
 layout: '@/layouts/document.astro'
-title: Mage-OS Alliance Bylaws
-description: Mage-OS Alliance Bylaws
+title: Mage-OS Association Bylaws
+description: Mage-OS Association Bylaws
 ---
 
 TODO: Insert finalized bylaws here
