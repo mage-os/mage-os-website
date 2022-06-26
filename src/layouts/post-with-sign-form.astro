@@ -8,7 +8,7 @@ const { groupId } = content
 
 const subscribers = await fetch(`${Astro.site}/api/subscribers-list?groupId=${groupId}`).then(res => res.json())
 ---
-<Layout ...Astro.props>
+<Layout {...Astro.props}>
   <div class="mb-4 mx-auto max-w-prose">
     <h1
       class="

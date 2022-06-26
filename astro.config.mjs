@@ -1,9 +1,11 @@
-export default {
-  buildOptions: {
-    site: 'https://mage-os.org',
-    sitemap: true
-  },
-  renderers: [
-    '@astrojs/renderer-vue'
+import { defineConfig } from 'astro/config'
+import vue from '@astrojs/vue'
+import tailwind from '@astrojs/tailwind'
+
+export default defineConfig({
+  site: 'https://mage-os.org',
+  integrations: [
+    vue(),
+    tailwind()
   ]
-}
+})

@@ -1,4 +1,5 @@
 ---
+import { generateSocialImage } from 'astro-social-images'
 import MetaTags from '@/utils/MetaTags.astro'
 import Header from '@/components/Header.astro'
 import Footer from '@/components/Footer.astro'
@@ -6,8 +7,28 @@ import Footer from '@/components/Footer.astro'
 const stylesUrl = Astro.resolve('../assets/styles/global.css')
 
 const { content } = Astro.props
-const title = 'Mage-OS'
-const description = 'The Magento OS Community Alliance'
+const title = content?.title || 'Mage-OS'
+const description = content?.description || 'The Magento OS Community Alliance'
+const permalink = Astro.canonicalURL.href
+
+const image = generateSocialImage({
+  backgroundColor: '#0f172a',
+  images: [
+    { url: 'public/social-preview-background.png', attributes: { x: 0, y: 0 } }
+  ],
+  texts: [
+    {
+      content: content?.title || 'The future of Magento',
+      attributes: { x: '55', y: '105', 'font-size': '70px', fill: '#f8fafc', style: 'font-family: Montserrat; z-index: 1000;' },
+    },
+    {
+      content: 'Mage-OS',
+      attributes: { x: '980', y: '600', 'font-size': '40px', fill: '#ea580c', style: 'font-family: Montserrat; z-index: 1000;' },
+    }
+  ]
+}, {
+  urlPath: 'https://mage-os.org/'
+})
 ---
 <!doctype html>
 <html lang="en">
@@ -35,8 +56,10 @@ const description = 'The Magento OS Community Alliance'
     <link rel="alternate" type="application/rss+xml" title="Mage OS RSS Feed" href="/rss.xml" />
 
     <MetaTags
-      title={ content?.title ? `${title} | ${content.title}` : title }
+      title={ title }
       description={ content?.description || description }
+      image={ image.url }
+      permalink={ permalink }
     />
   </head>
 

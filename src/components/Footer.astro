@@ -7,20 +7,17 @@ const year = new Date().getFullYear()
     border-t border-gray-400 text-gray-600
   "
 >
-  <div class="
-    flex flex-col md:flex-row justify-between gap-4
-  ">
-    <div class="flex gap-4">
-      <a href="/newsletter">Newsletter</a>
-      <a href="/imprint">Imprint</a>
-      <a href="/privacy-policy">Privacy Policy</a>
-      <a href="/code-of-conduct">Code of Conduct</a>
-    </div>
-
-    <p>
-      {year} &copy; The Mage-OS Alliance
-    </p>
+  <div class="flex flex-col md:flex-row justify-between gap-4 md:gap-8 w-auto lg:float-left">
+    <a class="hover:text-primary transition-colors" href="/newsletter">Newsletter</a>
+    <a class="hover:text-primary transition-colors" href="https://discord.gg/nvZDVA2NdC" target="_blank" rel="noopener">Discord</a>
+    <a class="hover:text-primary transition-colors" href="/imprint">Imprint</a>
+    <a class="hover:text-primary transition-colors" href="/privacy-policy">Privacy Policy</a>
+    <a class="hover:text-primary transition-colors" href="/code-of-conduct">Code of Conduct</a>
   </div>
   
-  <p class="pt-4 text-sm text-gray-400">Magento<sup>®</sup> is a registered trademark of Adobe Inc. Mage-OS is not associated with Adobe or Magento Open Source in any way.</p>
+  <p class="text-center lg:text-right pt-8 lg:pt-0">
+    {year} &copy; The Mage-OS Association
+  </p>
+
+  <p class="pt-8 text-sm text-gray-400 clear-both">Magento<sup>®</sup> is a registered trademark of Adobe Inc. Mage-OS is not associated with Adobe or Magento Open Source in any way.</p>
 </footer>

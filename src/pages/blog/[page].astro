@@ -1,0 +1,40 @@
+---
+export async function getStaticPaths({ paginate }) {
+  const rawPosts = await Astro.glob('./*.md')
+
+  const posts = rawPosts
+    .map(({ url, frontmatter }) => ({ url, ...frontmatter }))
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+
+  return paginate(posts, { pageSize: 10 })
+}
+
+import Layout from '@/layouts/default.astro'
+import PostPreviewList from '@/components/PostPreviewList.astro'
+import Button from '@/components/Button.astro'
+
+const { page } = Astro.props
+---
+
+<Layout>
+  <div class="mb-6">
+    <h1 class="text-4xl font bold text-gray-600">
+      Blog
+    </h1>
+
+  </div>
+
+  <PostPreviewList posts={page.data} />
+
+  {page.lastPage > 1 &&
+    <div class="mt-4 flex items-center flex-col">
+    <div class="flex justify-center gap-4">
+      {page.url.prev ? <Button href={page.url.prev}>Previous</Button> : null}
+      {page.url.next ? <Button href={page.url.next}>Next</Button> : null}
+      </div>
+      <p class="mt-2 text-gray-500">
+        Page {page.currentPage} of {page.lastPage}
+      </p>
+    </div>
+  }
+</Layout>

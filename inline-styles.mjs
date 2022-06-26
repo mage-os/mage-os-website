@@ -2,6 +2,7 @@ import path from 'node:path'
 import fs from 'node:fs/promises'
 import { globby } from 'globby'
 
+const root = path.resolve('./dist')
 const files = await globby('./dist/**/index.html')
 
 await Promise.all(
@@ -21,7 +22,7 @@ await Promise.all(
 
     await Promise.all(
       stylesPaths.map(async stylesPath => {
-        const styles = await fs.readFile(path.resolve(path.dirname(htmlPath), stylesPath), 'utf-8')
+        const styles = await fs.readFile(path.join(root, stylesPath), 'utf-8')
         pageStyles.push(styles)
       })
     )
