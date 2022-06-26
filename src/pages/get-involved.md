@@ -10,8 +10,8 @@ We intend to foster an open, positive, and inclusive community. Please read the 
 
 ## Join the discussion
 
-Discord: https://discord.gg/nvZDVA2NdC
-Github: https://github.com/mage-os
+Discord: https://discord.gg/nvZDVA2NdC  
+Github: https://github.com/mage-os  
 ?
 
 ## Become a member of Mage-OS
