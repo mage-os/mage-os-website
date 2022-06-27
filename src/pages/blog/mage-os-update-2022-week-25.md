@@ -42,7 +42,7 @@ The recent Meet Magento UK event allowed us to gather in London and reconnect in
 
 As we knew all along, Magento is alive and well, and there are many more merchants and agencies still using the platform and rooting for it than one may think. This lack of visibility is one challenge we hope to tackle. If you're interested in helping, whatever you can contribute, please join us on [Discord](https://discord.gg/nvZDVA2NdC)!
 
-https://twitter.com/wsakaren/status/1539074197619716097
+https://twitter.com/wsakaren/status/1539918577272328198
 
 ## Social Media Channels
 
