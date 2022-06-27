@@ -3,8 +3,7 @@ import { generateSocialImage } from 'astro-social-images'
 import MetaTags from '@/utils/MetaTags.astro'
 import Header from '@/components/Header.astro'
 import Footer from '@/components/Footer.astro'
-
-const stylesUrl = Astro.resolve('../assets/styles/global.css')
+import "../assets/styles/global.css";
 
 const { content } = Astro.props
 const title = content?.title || 'Mage-OS'
@@ -49,9 +48,6 @@ const image = generateSocialImage({
         font-display: block;
       }
     </style>
-
-    <!-- Core styles -->
-    <link id="inline-styles" rel="stylesheet" href={stylesUrl} />
 
     <link rel="alternate" type="application/rss+xml" title="Mage OS RSS Feed" href="/rss.xml" />
 

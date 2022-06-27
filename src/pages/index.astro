@@ -11,12 +11,44 @@ const posts = rawPosts
 ---
 
 <Layout>
-  <div class="my-8">
+  <div class="my-8 text-lg">
     <p class="pb-2">Mage-OS is a community-driven initiative to ensure the continued innovation and success of the Magento<sup>®</sup> platform.</p>
-    <p class="pb-2">We invite everyone to join us, and help create the future of open source ecommerce.</p>
+    <p class="pb-2">Join the conversation! Help create the future of open source ecommerce.</p>
   </div>
+ 
+  <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
 
-  <h2 class="py-4 text-2xl">Updates</h2>
+  <!-- <h2 class="my-8 text-2xl">How may we direct your call?</h2> -->
+  <div class="flex flex-col lg:flex-row gap-8">
+    <div class="flex-1 p-4 bg-secondary/5 rounded-xl">
+      <h3 class="mb-2 text-2xl font-semibold text-primary">Developers</h3>
+      <ul class="pl-4 leading-relaxed">
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/distribution">Start using Mage-OS</a></li>
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/get-involved">Contribute to Mage-OS</a></li>
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/get-involved">Become a Member</a></li>
+      </ul>
+    </div>
+    
+    <div class="flex-1 p-4 bg-secondary/5 rounded-xl">
+      <h3 class="mb-2 text-2xl font-semibold text-primary">Merchants</h3>
+      <ul class="pl-4 leading-relaxed">
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/organization/about">Why use Mage-OS?</a></li>
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/get-involved">Support Mage-OS</a></li>
+      </ul>
+    </div>
+    
+    <div class="flex-1 p-4 bg-secondary/5 rounded-xl">
+      <h3 class="mb-2 text-2xl font-semibold text-primary">Agencies</h3>
+      <ul class="pl-4 leading-relaxed">
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/organization/about">What is Mage-OS?</a></li>
+        <li class="list-disc"><a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/get-involved">Support Mage-OS</a></li>
+      </ul>
+    </div>
+  </div>
+ 
+  <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
+  
+  <h2 class="my-8 text-2xl">Updates</h2>
   <PostPreviewList posts={posts} />
 
   <Button

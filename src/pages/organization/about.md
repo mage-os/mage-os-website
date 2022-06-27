@@ -8,32 +8,6 @@ The Mage-OS Association is a non-profit association formed by people within the 
 
 Mage-OS is incorporated in Poland, but is represented worldwide.
 
-## Who we are
-
-### Board of Directors
-
-- Vinai Kopp (DE) - *President*
-- Thien-Lan Weber (FR) - *Vice President*
-- Wouter Steenmeijer (NL) - *Treasurer*
-- Alessandro Ronchi (IT) - *Actuary*
-- Ryan Hoerr (US)
-- John Hughes (UK)
-- Ignacio Riesco (ES)
-
-### Committees
-
-- Business Control Committee
-  - Maciej Kalkowski (PL) - *Lead*
-  - Simon Sprankel (DE)
-- Magento Content Committee
-  - John Hughes (UK) - *Lead*
-  - Maier Bianchi (US)
-  - Arron Moss (UK)
-  - Brent Peterson (US)
-  - Damien Retzinger (US)
-  - Thien-Lan Weber (FR)
-  - Willem Wigman (NL)
-
 ## Our Mission and Values
 
 We want to see Magento prosper.
@@ -68,6 +42,32 @@ Our vision for the Mage-OS project starts with these key steps:
 6. Launch a grant program to sponsor development of specific improvements to the Mage-OS distribution *(subject to availability of funds)*
 7. Create a business entity to provide merchant support services and bug fixes for the Mage-OS and Magento Open Source platforms
 
+## Who we are
+
+### Board of Directors
+
+- Vinai Kopp (DE) - *President*
+- Thien-Lan Weber (FR) - *Vice President*
+- Alessandro Ronchi (IT) - *Actuary*
+- Wouter Steenmeijer (NL) - *Treasurer*
+- Ryan Hoerr (US)
+- John Hughes (UK)
+- Maciej Kalkowski (PL)
+- Ignacio Riesco (ES)
+
+### Committees
+
+- Business Control Committee
+  - Simon Sprankel (DE)
+- Magento Content Committee
+  - John Hughes (UK) - *Lead*
+  - Maier Bianchi (US)
+  - Arron Moss (UK)
+  - Brent Peterson (US)
+  - Damien Retzinger (US)
+  - Thien-Lan Weber (FR)
+  - Willem Wigman (NL)
+
 ## Bylaws
 
-[View the Mage-OS Alliance bylaws](/organization/bylaws)
+[View the Mage-OS Association bylaws](/organization/bylaws)
