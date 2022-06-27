@@ -24,7 +24,7 @@ More to come. Please join us on Discord in [#tech](https://discord.com/channels/
 
 Our by-laws and founding process have all been finalized, and we are on track to form the Association in the next month or so.
 
-As mentioned in our previous post, we nominated members of the Board of Directors and well as the Control Committee.
+As mentioned in our [previous post](https://mage-os.org/blog/mage-os-update-2022-week-19), we nominated members of the Board of Directors and well as the Control Committee.
 
 Meet Magento UK gave many of us an opportunity to meet in real life, sign a couple of legal documents, and celebrate.
 
