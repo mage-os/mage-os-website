@@ -28,7 +28,7 @@ As mentioned in our previous post, we nominated members of the Board of Director
 
 Meet Magento UK gave many of us an opportunity to meet in real life, sign a couple of legal documents, and celebrate.
 
-TODO picture?
+![Mage-OS Founding With Ignacio Riesco, Thien-Lan Weber, Maciej Kalkowski and John Hughes](/blog/2022/mage-os-founding.jpg "Mage-OS Founding With Ignacio Riesco, Thien-Lan Weber, Maciej Kalkowski and John Hughes")
 
 ### Mage-OS Brand Identity
 
