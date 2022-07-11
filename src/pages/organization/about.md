@@ -38,9 +38,11 @@ Our vision for the Mage-OS project starts with these key steps:
 2. *[Launch an independent public mirror of Magento Open Source](/blog/mage-os-update-2022-week-11)*
 3. **Form the supporting organization** 👈 We are here
 4. Launch the Mage-OS distribution for development and publication of enhancements to the Magento Open Source platform
-5. Hire a full-time Chief Operations Officer to oversee development of the Mage-OS distribution *(subject to availability of funds)*
+5. Hire a CEO or COO to further development of the Mage-OS association and distribution *(subject to availability of funds)*
 6. Launch a grant program to sponsor development of specific improvements to the Mage-OS distribution *(subject to availability of funds)*
 7. Create a business entity to provide merchant support services and bug fixes for the Mage-OS and Magento Open Source platforms
+
+----
 
 ## Who we are
 
@@ -48,18 +50,21 @@ Our vision for the Mage-OS project starts with these key steps:
 
 - Vinai Kopp (DE) - *President*
 - Thien-Lan Weber (FR) - *Vice President*
-- Alessandro Ronchi (IT) - *Actuary*
-- Wouter Steenmeijer (NL) - *Treasurer*
-- Ryan Hoerr (US)
+- Alessandro Ronchi (IT) - *Treasurer*
+- Ryan Hoerr (US) - *Actuary*
+- Peter Jaap Blaakmeer (NL)
 - John Hughes (UK)
 - Maciej Kalkowski (PL)
 - Ignacio Riesco (ES)
 
 ### Committees
 
-- Business Control Committee
+#### Business Control Committee
+*Ensures accountability and transparency in Association operations.*
   - Simon Sprankel (DE)
-- Magento Content Committee
+
+#### Magento Content Committee
+*Develops content to further the Magento Open Source platform and ecosystem.*
   - John Hughes (UK) - *Lead*
   - Maier Bianchi (US)
   - Arron Moss (UK)
@@ -68,6 +73,10 @@ Our vision for the Mage-OS project starts with these key steps:
   - Thien-Lan Weber (FR)
   - Willem Wigman (NL)
 
-## Bylaws
+----
 
-[View the Mage-OS Association bylaws](/organization/bylaws)
+## Statutes
+
+As a non-profit organization, Mage-OS was founded with formal statutes that define how the association is structured and operates.
+
+[View the Mage-OS Association statutes](/organization/statutes)
