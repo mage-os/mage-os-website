@@ -61,6 +61,7 @@ Our vision for the Mage-OS project starts with these key steps:
 
 #### Business Control Committee
 *Ensures accountability and transparency in Association operations.*
+  - Laura Folco (US)
   - Simon Sprankel (DE)
 
 #### Magento Content Committee

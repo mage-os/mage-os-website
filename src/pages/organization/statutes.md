@@ -416,6 +416,6 @@ The place of jurisdiction for all disputes affecting the membership shall be the
 ----
 
 Last updated: June 1st, 2022  
-Approved by: Alessandro Ronchi, Ignacio Riesco, John Hughes, Maciej Kalkowski, Peter Jaap Blaakmeer, Ryan Hoerr, Simon Sprankel, Thien-Lan Weber, Vinai Kopp, Wouter Steenmeijer
+Approved by founding members: Alessandro Ronchi, Ignacio Riesco, John Hughes, Laura Folco, Maciej Kalkowski, Peter Jaap Blaakmeer, Ryan Hoerr, Simon Sprankel, Thien-Lan Weber, Vinai Kopp, Wouter Steenmeijer
 
-*Note: These statutes were compiled by the Mage Open Source Community Alliance steering group. Parts of the document and organizational structure were used with permission from the Typo3 Association bylaws. Article 19 is based on language published for non-profits by Hurwit & Associates.*
+*Credit: Much of the document and organizational structure are derived from the Typo3 Association bylaws, with permission. Article 19 uses materials published for non-profits by Hurwit & Associates.*
