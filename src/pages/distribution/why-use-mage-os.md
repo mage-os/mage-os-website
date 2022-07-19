@@ -4,5 +4,12 @@ title: Why use Mage-OS?
 description: Why use Mage-OS?
 ---
 
-You might be wondering, what is Mage-OS? Why should I use it? Why should I care?
-
+<!--
+  TODO once the organization and distribution are more established and have more history/authority to reference.
+    Cover points like
+    - Stability
+    - Longevity
+    - Trust/backing (supporters, contributors, users, transparency, etc)
+    - Continued improvement for the evolving web
+    etc.
+-->

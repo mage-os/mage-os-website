@@ -20,13 +20,13 @@ Github: https://github.com/mage-os
 - Directly support ongoing development of the Mage-OS platform
 - Get a vote in Mage-OS elections, resolutions, and direction
 
-Rates and levels will be announced soon!
+Rates and levels will be announced soon! Join [our email list](/newsletter) or [Discord](https://discord.gg/nvZDVA2NdC) to get notified.
 
 ## Support Mage-OS as a Company
 
 If Mage-OS or Magento is important to you or your company, we encourage you to support the organization! This involves higher fees, but also gives you exposure. And everyone likes exposure, right?
 
-Rates and levels will be announced soon!
+Rates and levels will be announced soon! Join [our email list](/newsletter) or [Discord](https://discord.gg/nvZDVA2NdC) to get notified.
 
 ## Contribute
 

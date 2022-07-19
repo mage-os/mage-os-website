@@ -6,11 +6,13 @@ description: About the Mage-OS Association
 
 The Mage-OS Association is a non-profit association formed by people within the Magento community to represent and further the interests of that community as a whole: Merchants, developers, agencies, and all of the many people supporting and supported by this ecosystem.
 
+The ideas behind Mage-OS were first shared in an [open letter about the future of Magento](/block/the-future-of-magento). That letter prompted discussions and action across the community. The letter was signed by 1,641 people that use, develop, or otherwise depend on Magento for a living. Mage-OS brings the ideas of that letter to life.
+
 Mage-OS is incorporated in Poland, but is represented worldwide.
 
 ## Our Mission and Values
 
-We want to see Magento prosper.
+**We want to see Magento prosper.**
 
 We have the following goals:
 - Grow the community
@@ -52,10 +54,10 @@ Our vision for the Mage-OS project starts with these key steps:
 - Thien-Lan Weber (FR) - *Vice President*
 - Alessandro Ronchi (IT) - *Treasurer*
 - Ryan Hoerr (US) - *Actuary*
-- Peter Jaap Blaakmeer (NL)
+- Ignacio Riesco (ES)
 - John Hughes (UK)
 - Maciej Kalkowski (PL)
-- Ignacio Riesco (ES)
+- Peter Jaap Blaakmeer (NL)
 
 ### Committees
 
@@ -67,10 +69,10 @@ Our vision for the Mage-OS project starts with these key steps:
 #### Magento Content Committee
 *Develops content to further the Magento Open Source platform and ecosystem.*
   - John Hughes (UK) - *Lead*
-  - Maier Bianchi (US)
   - Arron Moss (UK)
   - Brent Peterson (US)
   - Damien Retzinger (US)
+  - Maier Bianchi (US)
   - Thien-Lan Weber (FR)
   - Willem Wigman (NL)
 
