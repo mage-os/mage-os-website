@@ -15,6 +15,8 @@ What differentiates Mage-OS from Magento Open Source and Adobe Commerce?
 * Lightweight package selection by default
 * Simple migration to and from Magento Open Source
 
+[Read our product vision for the Mage-OS Distribution](/distribution/product-vision)
+
 ## Installation
 
 The Mage-OS composer repository is located at [repo.mage-os.org](https://repo.mage-os.org). This is not yet ready for production use, but will be the eventual source for Mage-OS releases.

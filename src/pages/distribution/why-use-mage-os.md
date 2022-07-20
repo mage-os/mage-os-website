@@ -2,6 +2,7 @@
 layout: '@/layouts/document.astro'
 title: Why use Mage-OS?
 description: Why use Mage-OS?
+draft: true
 ---
 
 <!--
