@@ -94,7 +94,7 @@ The Mage-OS Team
  * *Simon Sprankel, CustomGento GmbH*
  * *Ryan Hoerr, ParadoxLabs, Inc*
  * *Thien-Lan Weber, OneStepCheckout*
- * *Alessandro Ronchi, Magento Community Maintainer*
+ * *Alessandro Ronchi*
  * *John Hughes, Fisheye Media Ltd.*
  * *Tomas Gerulaitis*
  * *Ivan Chepurnyi, EcomDev B.V.*

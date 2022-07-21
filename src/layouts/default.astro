@@ -3,12 +3,11 @@ import { generateSocialImage } from 'astro-social-images'
 import MetaTags from '@/utils/MetaTags.astro'
 import Header from '@/components/Header.astro'
 import Footer from '@/components/Footer.astro'
-
-const stylesUrl = Astro.resolve('../assets/styles/global.css')
+import "../assets/styles/global.css";
 
 const { content } = Astro.props
 const title = content?.title || 'Mage-OS'
-const description = content?.description || 'The Magento OS Community Alliance'
+const description = content?.description || 'The Mage-OS Association'
 const permalink = Astro.canonicalURL.href
 
 const image = generateSocialImage({
@@ -50,9 +49,6 @@ const image = generateSocialImage({
       }
     </style>
 
-    <!-- Core styles -->
-    <link id="inline-styles" rel="stylesheet" href={stylesUrl} />
-
     <link rel="alternate" type="application/rss+xml" title="Mage OS RSS Feed" href="/rss.xml" />
 
     <MetaTags
@@ -66,12 +62,12 @@ const image = generateSocialImage({
   <body
     class="
       bg-white
-      text-gray-800 font-sans antialiased
+      text-black font-sans antialiased
     "
   >
     <div
       id="content"
-      class="mx-auto max-w-4xl px-4 md:px-0"
+      class="mx-auto max-w-6xl px-4 xl:px-0"
     >
       <Header />
 
