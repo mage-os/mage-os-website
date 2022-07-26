@@ -1,7 +1,7 @@
 ---
 layout: '@/layouts/post.astro'
 date: 2022-07-29
-title: Week 26-30 of 2022
+title: New Website, Mirror Distribution, Nightly Builds, Content & Community Updates (Week 30)
 description: Version 2.3.7-p3 added to mirror; New nightly build versioning convention; Community updates.  
 ---
 
@@ -27,7 +27,7 @@ Now all relevant versions can be installed from the <https://mirror.mage-os.org>
 
 Thank you to Daniel Sloof, Daniel Fahlke, and Damian Retzinger for helping to debug some of the issues! Your input was invaluable.
 
-Please join our [discord](http://chat.mage-os.org), say hi in the #tech channel, and join the conversation!
+Please join our [Discord](http://chat.mage-os.org), say hi in the #tech channel, and join the conversation!
 
 
 ### Mage-OS Magento® Mirror Nightly Builds
@@ -48,7 +48,7 @@ Once this change is implemented we will post details on how to install a build n
 
 ### Magento Open Source Content
 
-The content team continues to work on creating content for a Magento Open Source focused website. More content creators are very welcome! Every Monday at 4pm CET we meet to coordinate. Please join our [discord](http://chat.mage-os.org) and visit the #content channel to participate.
+The content team continues to work on creating content for a Magento Open Source focused website. More content creators are very welcome! Every Monday at 4pm CET we meet to coordinate. Please join our [Discord](http://chat.mage-os.org) and visit the #content channel to participate.
 
 ### Community
 
@@ -56,7 +56,7 @@ The [Mage-OS Discord](http://chat.mage-os.org) is becoming more lively, which is
 
 Also, we want to have online meetups or town hall hangouts, soon. These will be a great place to get to know each other, ask questions, and hear about what is happening.
 
-Finally, we are using Discords audio and video channels to stream longer dev sessions about once a week. This usually is rather spontaneous, usually during the weekend. Keep an eye out for Vinai or others hanging out in the Watercooler chats, if you are interested to discuss technicalities, pair program, or just watch.
+Finally, we are using Discord's audio and video channels to stream longer dev sessions about once a week. This usually is rather spontaneous, usually during the weekend. Keep an eye out for Vinai or others hanging out in the Watercooler chats, if you are interested to discuss technicalities, pair program, or just watch.
 
 
 That's all for today!  
