@@ -1,8 +1,8 @@
 ---
 layout: '@/layouts/post.astro'
 date: 2022-07-29
-title: New Website, Mirror Distribution, Nightly Builds, Content & Community Updates (Week 30)
-description: Version 2.3.7-p3 added to mirror; New nightly build versioning convention; Community updates.  
+title: New Website, Mirror Distribution, Nightly Builds, Content and Community Updates (Week 30)
+description: Version 2.3.7-p3 added to mirror; New nightly build versioning convention; Community updates.
 ---
 
 Lots is happening, folks!
@@ -36,7 +36,7 @@ So far we haven’t really made the nightly release repository public, and for g
 
 This worked and resulted in an installable release, however, it breaks most composer version constraints of packages built for Magento. The primary use case for nightly builds is testing, and this is very cumbersome with this naming scheme.
 
-So we decided to change this, and instead use the last release version of a package, followed by a fourth part .1 version, followed by the date. For example, the last release for the `magento/framework` package is `103.0.4`. 
+So we decided to change this, and instead use the last release version of a package, followed by a fourth part .1 version, followed by the date. For example, the last release for the `magento/framework` package is `103.0.4`.
 The nightly builds of this package will in future have the version `103.0.4.1-a20220721`. This satisfies commonly used composer version constraints like `^103.0.4`, and any package under test can simply be installed without any hassle.
 
 Thanks to Anton, Willem, Simon, Daniel F., and Daniel S. (and others whom we might have forgotten) for providing input on this topic. So far most of the implementation has been done by our own Vinai, but we're very open to helping hands. If you're interested in joining the effort, please don't hesitate to reach out!
@@ -59,7 +59,7 @@ Also, we want to have online meetups or town hall hangouts, soon. These will be 
 Finally, we are using Discord's audio and video channels to stream longer dev sessions about once a week. This usually is rather spontaneous, usually during the weekend. Keep an eye out for Vinai or others hanging out in the Watercooler chats, if you are interested to discuss technicalities, pair program, or just watch.
 
 
-That's all for today!  
+That's all for today!
 Enjoy the week, and keep an eye on this blog - more news coming soon,
 
 The Mage-OS folks
