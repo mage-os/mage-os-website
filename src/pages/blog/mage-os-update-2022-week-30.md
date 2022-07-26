@@ -39,7 +39,7 @@ This worked and resulted in an installable release, however, it breaks most comp
 So we decided to change this, and instead use the last release version of a package, followed by a fourth part .1 version, followed by the date. For example, the last release for the `magento/framework` package is `103.0.4`. 
 The nightly builds of this package will in future have the version `103.0.4.1-a20220721`. This satisfies commonly used composer version constraints like `^103.0.4`, and any package under test can simply be installed without any hassle.
 
-Thank you to Anton, Willem, Simon, Daniel F. and Daniel S. (and others whom I might have forgotten) for providing input on this topic.
+Thanks to Anton, Willem, Simon, DDaniel F. and Daniel S. (and others whom we might have forgotten) for providing input on this topic. So far most of the implementation has been done by our own Vinai, but we're very open to helping hands. If you're interested in joining the effort, please don't hesitate to reach out!
 
 Once this change is implemented we will post details on how to install a build nightly release, and also how to build nightly releases yourself.
 
