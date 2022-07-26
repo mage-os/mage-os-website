@@ -60,6 +60,6 @@ Finally, we are using Discord's audio and video channels to stream longer dev se
 
 
 That's all for today!  
-Enjoy the week, more news coming soon,
+Enjoy the week, and keep an eye on this blog - more news coming soon,
 
 The Mage-OS folks
