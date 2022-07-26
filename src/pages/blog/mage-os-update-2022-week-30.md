@@ -1,6 +1,6 @@
 ---
 layout: '@/layouts/post.astro'
-date: 2022-07-29
+date: 2022-07-26
 title: New Website, Mirror Distribution, Nightly Builds, Content and Community Updates (Week 30)
 description: Version 2.3.7-p3 added to mirror; New nightly build versioning convention; Community updates.
 ---
