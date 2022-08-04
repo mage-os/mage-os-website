@@ -14,11 +14,11 @@ Please read the [Code of Conduct](/code-of-conduct) before continuing.
 Discord: https://discord.gg/nvZDVA2NdC  
 Github: https://github.com/mage-os  
 
-Each week, we have one organisational and one technical meeting, which is open to anyone:
+Each week, we have one content and one technical meeting, which is open to anyone:
 
-### Organisational Meeting
+### Content Meeting
 
-This meeting takes place each Wednesday at 3pm CET. Feel free to join the [Google Meet](https://meet.google.com/kwc-eqwa-pxc) or ping Willem in Discord with your mail address, so that he adds you to the appointment.
+This meeting takes place each Monday at 4pm CET. Feel free to join the [Google Meet](https://meet.google.com/yiw-vfsk-dsm) or ping Willem in Discord with your mail address, so that he adds you to the appointment.
 
 ### Technical Meeting
 
