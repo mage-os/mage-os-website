@@ -11,18 +11,14 @@ const description = content?.description || 'The Mage-OS Association'
 const permalink = Astro.canonicalURL.href
 
 const image = generateSocialImage({
-  backgroundColor: '#0f172a',
+  backgroundColor: '#ffe9d6',
   images: [
     { url: 'public/social-preview-background.png', attributes: { x: 0, y: 0 } }
   ],
   texts: [
     {
       content: content?.title || 'The future of Magento',
-      attributes: { x: '55', y: '105', 'font-size': '70px', fill: '#f8fafc', style: 'font-family: Montserrat; z-index: 1000;' },
-    },
-    {
-      content: 'Mage-OS',
-      attributes: { x: '980', y: '600', 'font-size': '40px', fill: '#ea580c', style: 'font-family: Montserrat; z-index: 1000;' },
+      attributes: { x: '55', y: '105', 'font-size': '70px', fill: '#15133c', style: 'font-family: Montserrat; z-index: 1000;' },
     }
   ]
 }, {
