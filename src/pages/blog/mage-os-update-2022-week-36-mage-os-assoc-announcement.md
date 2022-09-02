@@ -9,7 +9,7 @@ It finally happened!
 
 We have founded Mage-OS as an official association registered in Poland. Huge thanks to Maciej Kalkowski, who took care of the legal matters with the lawyers and organized everything, and also thank you to everyone who gathered in Warsaw as the initial signing members. Now Mage-OS can register a bank account, get members, and employ people. This is an important step toward much bigger things for this Magento-based open source project.
 
-![A group picture of all the people present at the fouding of the Mage-OS Association.](/src/assets/images/2022-07-21-founding-meeting-warsaw.png)
+![A group picture of all the people present at the fouding of the Mage-OS Association.](/blog/2022/2022-07-21-founding-meeting-warsaw.png)
 
 Our goal is to strengthen the Magento ecosystem, and see it thrive for years to come!
 
