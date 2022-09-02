@@ -2,7 +2,7 @@
 layout: '@/layouts/post.astro'
 date: 2022-08-29
 title: Nightly repository now available; Mirror improvements; and more
-description: THe Mage-OS mirror repository has been finalized, and nightly builds are published  
+description: The Mage-OS mirror repository has been finalized, and nightly builds are published  
 ---
 
 We are moving at a quick pace -- buckle up for a fresh batch of Mage-OS updates!
