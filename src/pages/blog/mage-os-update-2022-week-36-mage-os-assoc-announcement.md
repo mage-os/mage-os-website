@@ -41,6 +41,13 @@ The founding board of Mage-OS consists of:
 * [Laura Folco](https://www.linkedin.com/in/laurafolco/) (US)
 * [Simon Sprankel](https://www.linkedin.com/in/simonsprankel/) (DE)
 
+### Founding Members
+
+Many thanks to all individuals and companies present in person during the founding ceremony:
+
+[Borys Skraba](https://twitter.com/BorysSkraba) ([Strix](https://www.linkedin.com/company/strixcommerce/)), [Rafał Gadomski](https://twitter.com/GadomskiRafal) ([Advox](https://www.linkedin.com/company/advox-s.c/)),
+[Bartosz Zakręta](https://twitter.com/zakreta) ([Hatimeria](https://www.linkedin.com/company/hatimeria/)), [Marek Syrek](https://twitter.com/mareksyrek) ([Virtua](https://www.linkedin.com/company/virtuacodelab/)), [Tomasz Grzemski](https://twitter.com/Grzemski) ([Macopedia](https://www.linkedin.com/company/macopedia-sp-z-o-o-/)), [Krzysztof Ratajczyk](https://twitter.com/86rataj) ([Panda Group](https://www.linkedin.com/company/pandagroupdev/)), [Radosław Mateusz Toczek](https://twitter.com/RadosawToczek) ([ClawRock](https://www.linkedin.com/company/clawrock/)), [Krzysztof Abram](https://twitter.com/chris_abraham1) ([Gate software](https://www.linkedin.com/company/gate-software/)), [Cezary Kożon](https://twitter.com/Cezary59949712) ([Spyro soft](https://www.linkedin.com/company/spyrosoft/)), [Łukasz Linczewski](https://twitter.com/llinczewski) ([Alekseon](https://www.linkedin.com/company/alekseon-sp.-z-o.o./)), [Mateusz Ogonowski](https://twitter.com/matogonowski) ([Growcode](https://www.linkedin.com/company/growcode/)), [Tomasz Piotr Lis](https://twitter.com/TomaszFox) and [Piotr Siejczuk](https://twitter.com/PiotrSiejczuk)!
+
 For more info, see [About the Mage-OS Association](https://mage-os.org/organization/about).
 
 ## More about Mage-OS
