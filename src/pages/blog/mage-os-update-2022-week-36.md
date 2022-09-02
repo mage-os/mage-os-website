@@ -25,21 +25,21 @@ The founding board of Mage-OS consists of:
 
 ### Board of Directors
 
-* Vinai Kopp (DE) - President
-* Thien-Lan Weber (FR) - Vice President
-* Alessandro Ronchi (IT) - Treasurer
-* Ryan Hoerr (US) - Actuary
-* Ignacio Riesco (ES)
-* John Hughes (UK)
-* Maciej Kalkowski (PL)
-* Peter Jaap Blaakmeer (NL)
+* [Vinai Kopp](https://www.linkedin.com/in/vinai/) (DE) - President
+* [Thien-Lan Weber](https://www.linkedin.com/in/thienlan/) (FR) - Vice President
+* [Alessandro Ronchi](https://www.linkedin.com/in/alessandroronchi/) (IT) - Treasurer
+* [Ryan Hoerr](https://www.linkedin.com/in/rhoerr/) (US) - Actuary
+* [Ignacio Riesco](https://www.linkedin.com/in/ignacioriesco/) (ES)
+* [John Hughes](https://www.linkedin.com/in/johnhughes1984/) (UK)
+* [Maciej Kalkowski](https://www.linkedin.com/in/kalkos/) (PL)
+* [Peter Jaap Blaakmeer](https://www.linkedin.com/in/peterjaap/) (NL)
 
 ### Business Control Committee
 
 *Ensures accountability and transparency in Association operations.*
 
-* Laura Folco (US)
-* Simon Sprankel (DE)
+* [Laura Folco](https://www.linkedin.com/in/laurafolco/) (US)
+* [Simon Sprankel](https://www.linkedin.com/in/simonsprankel/) (DE)
 
 For more info, see [About the Mage-OS Association](https://mage-os.org/organization/about).
 
