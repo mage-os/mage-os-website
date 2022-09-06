@@ -38,8 +38,8 @@ Our vision for the Mage-OS project starts with these key steps:
 
 1. *[Build community interest](/blog/the-future-of-magento)*
 2. *[Launch an independent public mirror of Magento Open Source](/blog/mage-os-update-2022-week-11)*
-3. **Form the supporting organization** 👈 We are here
-4. Launch the Mage-OS distribution for development and publication of enhancements to the Magento Open Source platform
+3. *[Form the supporting organization](/blog/mage-os-update-2022-week-36-mage-os-assoc-announcement)*
+4. **Launch the Mage-OS distribution, for enhancements to the Magento Open Source platform** 👈 We are here
 5. Hire a CEO or COO to further development of the Mage-OS association and distribution *(subject to availability of funds)*
 6. Launch a grant program to sponsor development of specific improvements to the Mage-OS distribution *(subject to availability of funds)*
 7. Create a business entity to provide merchant support services and bug fixes for the Mage-OS and Magento Open Source platforms
