@@ -83,3 +83,12 @@ Our vision for the Mage-OS project starts with these key steps:
 As a non-profit organization, Mage-OS was founded with formal statutes that define how the association is structured and operates.
 
 [View the Mage-OS Association statutes](/organization/statutes)
+
+----
+
+## Sponsors
+
+We are proud and grateful to be suppoerted by:
+
+[![Tutanota, an Email Service Provider sponsoring Mage-OS](/supporters/tutanota.png)](https://tutanota.com/)
+
