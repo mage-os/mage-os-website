@@ -3,6 +3,13 @@ import Layout from '@/layouts/default.astro'
 import PostPreviewList from '@/components/PostPreviewList.astro'
 import Button from '@/components/Button.astro'
 
+const content = {
+  title: 'Mage-OS | Community-Driven Commerce',
+  description: '',
+  socialTitle: 'Community-Driven Commerce',
+  socialDescription: 'Mage-OS is an open initiative to sustain and enrich the Magento platform and ecosystem.'
+}
+
 const rawPosts = await Astro.glob('./blog/*.md')
 const posts = rawPosts
   .map(({ url, frontmatter }) => ({ url, ...frontmatter }))
@@ -10,7 +17,7 @@ const posts = rawPosts
   .slice(0, 5)
 ---
 
-<Layout>
+<Layout content={content}>
   <div class="my-8 text-lg">
     <p class="pb-2"><strong>Mage-OS</strong> is an open initiative to ensure the accessibility, longevity, and success of the Magento<sup>®</sup> platform and ecosystem.</p>
     <p class="pb-2">The <a class="underline hover:text-primary hover:no-underline transition-colors decoration-gray-400 underline-offset-2" href="/distribution">Mage-OS Distribution</a> is a backwards compatible, lightweight version of Magento Open Source packages. This includes changes and new features compared to Magento, as contributed by volunteers like you. We aim to stay compatible with all existing Magento 2 extensions and integrations as much as possible.</p>

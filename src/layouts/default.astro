@@ -6,8 +6,8 @@ import Footer from '@/components/Footer.astro'
 import "../assets/styles/global.css";
 
 const { content } = Astro.props
-const title = content?.title || 'Mage-OS'
-const description = content?.description || 'The Mage-OS Association'
+const title = content?.title || ''
+const description = content?.description || ''
 const permalink = Astro.canonicalURL.href
 
 const image = generateSocialImage({
@@ -17,11 +17,16 @@ const image = generateSocialImage({
   ],
   texts: [
     {
-      content: content?.title || 'The future of Magento',
-      attributes: { x: '55', y: '105', 'font-size': '70px', fill: '#15133c', style: 'font-family: Montserrat; z-index: 1000;' },
-    }
+      content: content?.socialTitle || content?.title || 'Community-Driven Commerce',
+      attributes: { x: '25', y: '225', 'font-size': '50px', fill: '#15133c', style: 'font-family: Montserrat; z-index: 1000;' },
+    },
+    {
+      content: content?.socialDescription || content?.description || '',
+      attributes: { x: '25', y: '375', 'font-size': '24px', fill: '#15133c', style: 'font-family: Montserrat; z-index: 1000;' },
+    },
   ]
 }, {
+  hashLength: 12,
   urlPath: 'https://mage-os.org/'
 })
 ---
@@ -49,7 +54,7 @@ const image = generateSocialImage({
 
     <MetaTags
       title={ title }
-      description={ content?.description || description }
+      description={ description }
       image={ image.url }
       permalink={ permalink }
     />
