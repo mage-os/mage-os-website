@@ -9,5 +9,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/qr",
+      "destination": "https://mage-os.org/",
+      "permanent": false
+    }
   ]
 }

@@ -6,27 +6,26 @@ description: Get Involved
 
 Want to get involved with Mage-OS? We'd love to have you!
 
-We intend to foster an open, positive, and inclusive community.  
-Please read the [Code of Conduct](/code-of-conduct) before continuing.
-
 ## Join the discussion
 
-Discord: https://discord.gg/nvZDVA2NdC  
-Github: https://github.com/mage-os  
+This is an open, positive, and inclusive community. Please read the [Code of Conduct](/code-of-conduct).
 
-## Become a member of Mage-OS
+Join Discord chat: http://chat.mage-os.org  
+Browse Github: https://github.com/mage-os  
+
+## Spread the word
+
+Tell your friends the good news! Mage-OS is here to make your lives a little happier. The more people get excited and join in, the faster this distribution can grow. Help us reach the whole community worldwide.
+
+## Support Mage-OS
+
+If Mage-OS or Magento is important to you or your company, we encourage you to become a supporter!
 
 - Become a card-carrying member
 - Directly support ongoing development of the Mage-OS platform
 - Get a vote in Mage-OS elections, resolutions, and direction
 
-Rates and levels will be announced soon! Join [our email list](/newsletter) or [Discord](https://discord.gg/nvZDVA2NdC) to get notified.
-
-## Support Mage-OS as a Company
-
-If Mage-OS or Magento is important to you or your company, we encourage you to support the organization! This involves higher fees, but also gives you exposure. And everyone likes exposure, right?
-
-Rates and levels will be announced soon! Join [our email list](/newsletter) or [Discord](https://discord.gg/nvZDVA2NdC) to get notified.
+Rates and levels will be announced soon! Join [our email list](/newsletter) or [Discord](http://chat.mage-os.org) to get notified.
 
 ## Contribute
 
