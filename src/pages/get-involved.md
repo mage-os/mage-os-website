@@ -4,7 +4,7 @@ title: Get Involved
 description: Get Involved
 ---
 
-Want to get involved with Mage-OS? We'd love to have you!
+Want to help out with Mage-OS? We'd love to have you! Since the Mage-OS project is still relatively young, you have a tremendous opportunity to have a positive impact on the project and community by getting involved today.
 
 ## Join the discussion
 
@@ -15,7 +15,7 @@ Browse Github: https://github.com/mage-os
 
 ## Spread the word
 
-Tell your friends the good news! Mage-OS is here to make your lives a little happier. The more people get excited and join in, the faster this distribution can grow. Help us reach the whole community worldwide.
+Tell your friends the good news! Mage-OS is here to make your lives a little happier. The more people get excited and join in, the faster this distribution can grow. Help us reach the whole community around the world.
 
 ## Support Mage-OS
 
