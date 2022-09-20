@@ -34,3 +34,13 @@ Talk to us, clone the repository, then start submitting pull requests! All contr
 Please note, even with the above, not all contributions will be accepted. That being said, we will do our best to process pull requests fairly, transparently, and in reasonable time.
 
 Github: https://github.com/mage-os/mageos-magento2
+
+## Meetings
+
+We currently have two weekly meetings which are open for anyone to join and participate in. If you want to start helping with Mage-OS, joining our Discord and one or both of these meetings is the best way to do that.
+
+#### Content Meeting
+Each Monday at 4pm CET (10am EST), the content committee goes over progress and next steps for creating an informational site about Magento Open Source. Join the [Google Meet](https://meet.google.com/yiw-vfsk-dsm) at the scheduled time, or contact John Hughes in Discord to be added to the calendar event.
+
+#### Technical Meeting
+Each Tuesday at 3pm CET (9am EST), contributors meet to discuss the technical progress of the Mage-OS distribution. Join the [Google Meet](https://meet.google.com/hsj-rbtz-njw) at the scheduled time, or contact Vinai in Discord to be added to the calendar event.
