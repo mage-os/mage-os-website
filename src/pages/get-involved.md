@@ -43,4 +43,4 @@ We currently have two weekly meetings which are open for anyone to join and part
 Each Monday at 4pm CET (10am EST), the content committee goes over progress and next steps for creating an informational site about Magento Open Source. Join the [Google Meet](https://meet.google.com/yiw-vfsk-dsm) at the scheduled time, or contact John Hughes in Discord to be added to the calendar event.
 
 #### Technical Meeting
-Each Tuesday at 3pm CET (9am EST), contributors meet to discuss the technical progress of the Mage-OS distribution. Join the [Google Meet](https://meet.google.com/hsj-rbtz-njw) at the scheduled time, or contact Vinai in Discord to be added to the calendar event.
+Each Tuesday at 3pm CET (9am EST), contributors meet to discuss the technical progress of the Mage-OS distribution. Join the [Dicord Meeting Room](https://discordapp.com/channels/893449664093904936/900634980571557948) at the scheduled time, or contact Vinai in Discord to be added to the calendar event.
