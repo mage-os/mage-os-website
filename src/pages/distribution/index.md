@@ -58,6 +58,8 @@ You can obtain Magento packages through these Mage-OS-built Magento mirror repos
 
 - EU: [mirror.mage-os.org](https://mirror.mage-os.org) *(Mage-OS)*
 - EU: [mage-os.hypernode.com/mirror/](https://mage-os.hypernode.com/mirror/) *(Hypernode)*
+- EU: [mage-os.maxcluster.net/mirror/](https://mage-os.maxcluster.net/mirror/) *(maxcluster)*
+
 
 These can be used to install Magento Open Source 2.3.7 and 2.4.x without authentication. To install `magento/project-community-edition` 2.4.5 in your working directory:
 
