@@ -19,32 +19,34 @@ const content = {
       Frequently Asked Questions
     </h1>
     
-    <Button
-      id="expand-all"
-      class="mt-8 bg-primary hover:bg-white cursor-pointer text-white hover:text-primary"
-    >
-      Expand All Questions
-    </Button>
-    <Button
-      id="collapse-all"
-      class="ml-4 mt-8 bg-primary hover:bg-white cursor-pointer text-white hover:text-primary"
-    >
-      Collapse All Questions
-    </Button>
-    <script type="text/javascript">
-      document.getElementById('expand-all').addEventListener('click', function(e) {
-        for (let details of document.getElementsByTagName('details')) {
-          details.open = true;
-        }
-      });
-      document.getElementById('collapse-all').addEventListener('click', function(e) {
-        for (let details of document.getElementsByTagName('details')) {
-          details.open = false;
-        }
-      });
-    </script>
+    <div>
+      <Button
+        id="expand-all"
+        class="mt-8 bg-primary hover:bg-white cursor-pointer text-white hover:text-primary block md:inline"
+      >
+        Expand All Questions
+      </Button>
+      <Button
+        id="collapse-all"
+        class="md:ml-4 mt-1 md:mt-8 bg-primary hover:bg-white cursor-pointer text-white hover:text-primary block md:inline"
+      >
+        Collapse All Questions
+      </Button>
+      <script type="text/javascript">
+        document.getElementById('expand-all').addEventListener('click', function(e) {
+          for (let details of document.getElementsByTagName('details')) {
+            details.open = true;
+          }
+        });
+        document.getElementById('collapse-all').addEventListener('click', function(e) {
+          for (let details of document.getElementsByTagName('details')) {
+            details.open = false;
+          }
+        });
+      </script>
+    </div>
     
-    <div class="mt-8">
+    <div class="mt-8 clear-both">
       <strong>Jump To:</strong>
       <ul class="list-disc ml-4">
         <li><a class="text-primary" href="#value-proposition">Value Proposition</a></li>
