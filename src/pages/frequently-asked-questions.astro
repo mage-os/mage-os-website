@@ -1,0 +1,375 @@
+---
+import Layout from '@/layouts/default.astro'
+import Button from '@/components/Button.astro'
+
+const content = {
+  title: 'Frequently Asked Questions | Mage-OS',
+  description: 'Everything you wanted to know about Mage-OS',
+  socialTitle: 'Frequently Asked Questions'
+}
+---
+
+<Layout content={content}>
+  <div class="mb-4 mx-auto max-w-prose">
+    <h1 class="
+        mb-8
+        text-4xl
+        text-primary font-semibold
+      ">
+      Frequently Asked Questions
+    </h1>
+    
+    <Button
+      id="expand-all"
+      class="mt-8 bg-primary hover:bg-white cursor-pointer text-white hover:text-primary"
+    >
+      Expand All Questions
+    </Button>
+    <Button
+      id="collapse-all"
+      class="ml-4 mt-8 bg-primary hover:bg-white cursor-pointer text-white hover:text-primary"
+    >
+      Collapse All Questions
+    </Button>
+    <script type="text/javascript">
+      document.getElementById('expand-all').addEventListener('click', function(e) {
+        for (let details of document.getElementsByTagName('details')) {
+          details.open = true;
+        }
+      });
+      document.getElementById('collapse-all').addEventListener('click', function(e) {
+        for (let details of document.getElementsByTagName('details')) {
+          details.open = false;
+        }
+      });
+    </script>
+    
+    <div class="mt-8">
+      <strong>Jump To:</strong>
+      <ul class="list-disc ml-4">
+        <li><a class="text-primary" href="#value-proposition">Value Proposition</a></li>
+        <li><a class="text-primary" href="#vision-and-sustainability">Vision and Sustainability</a></li>
+        <li><a class="text-primary" href="#community">Community</a></li>
+        <li><a class="text-primary" href="#usage">Usage</a></li>
+        <li><a class="text-primary" href="#contribution">Contribution</a></li>
+        <li><a class="text-primary" href="#technology">Technology</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <article class="prose mx-auto">
+    <h2 id="value-proposition" class="mt-8 mb-4 text-2xl">Value Proposition</h2>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What is the purpose of Mage-OS?</h4></summary>
+      <p class="mt-2">We want businesses and careers built around Magento Open Source to prosper.</p>
+      <p>Magento Open Source is a mature eCommerce platform, with more than 300,000 developers and thousands of businesses worldwide depending on it.</p>
+      <p>Adobe is focused on large enterprise projects, and because of that doesn't give many resources to supporting Magento Open Source. Moreover, Adobe is actively harming Magento Open Source businesses with false or misleading claims like "Magento is now Adobe Commerce".</p>
+      <p>We are ensuring a bright future for Magento by enabling the development community to enhance the platform, providing merchants and agencies the long-term reliability they require, and giving newcomers an easy entry into the platform.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How will Mage-OS fulfill its purpose?</h4></summary>
+      <p class="mt-2">Mage-OS is an eCommerce platform, evolved from Magento Open Source. It can be used to build online stores, in the same way that Magento Open Source can be used.</p>
+      <p>However, because Mage-OS is focused on improving the components that make up the platform, we envision it becoming a foundation that many purpose-built variations of eCommerce systems can be built on. For example, we envision a minimal system optimized for a low resource consumption, or a system optimized for headless store fronts, or for modern server side rendered stores, or an e-procurement system, etc.</p>
+      <p>We are also driving the ecosystem by providing content for merchants and agencies to gather first hand information about the platform. This will include comparisons to other platforms, showcases, FAQs, directories, and more.</p>
+      <p>Finally, Mage-OS will focus on local representation at Magento specific events and eCommerce events at large, to engage with businesses and developers in person.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How is Mage-OS better than Magento Open Source?</h4></summary>
+      <p class="mt-2">In the short term, Mage-OS will be the same but different. Mage-OS will be available for your use if and when you want it.</p>
+      <p>Our initial focus is on significant performance and usability improvements. We will be integrating changes that have been suggested as Pull Requests to Magento Open Source by the community, but haven't been included by Adobe due to lack of resources for Magento Open Source.</p>
+      <p>Over time, those bug fixes and improvements will accumulate and become an increasingly large advantage for Mage-OS over Magento.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How is Mage-OS better than other eCommerce platforms?</h4></summary>
+      <p class="mt-2">Magento is a very stable and feature rich eCommerce platform with a huge amount of integrations with third party services and a rich developer community. Mage-OS is and will remain intercompatible with Magento solutions and integrations, and provides further enhancements on top.</p>
+      <p>We are working on content to provide a detailed comparison of Magento to other platforms.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Why should a merchant consider using Mage-OS?</h4></summary>
+      <p class="mt-2">Mage-OS benefits from having evolved out of Magento Open Source. It offers:</p>
+      <ul>
+        <li>A mature and stable platform with a huge amount of existing third party integrations</li>
+        <li>Ownership of the platform by being able to become a member of the Mage-OS Association</li>
+        <li>Unparalleled flexibility and customizability</li>
+        <li>A large global community of developers, agencies, and support</li>
+      </ul>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How is Mage-OS financed?</h4></summary>
+      <p class="mt-2">Mage-OS is organized by a nonprofit association, the 'Mage-OS Association'. At the time of writing, this association is currently being registered as a legal entity.</p>
+      <p>Most financing will be through membership fees from businesses and individuals.</p>
+      <p>The membership fees for individual members will be affordable for someone working with Magento on a regular basis, regardless of their location.</p>
+      <p>Companies can become members at higher levels (e.g. bronze, silver, gold) for higher amounts, to contribute to the ongoing development of the platform.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What are the benefits of giving money to Mage-OS?</h4></summary>
+      <p class="mt-2">Contributing to Mage-OS financially is directly funding the development and longevity of this platform and ecosystem.</p>
+      <p>The Mage-OS Association is not-for-profit, and will be investing the vast majority of funds directly into staffing, operations, and development of Mage-OS. Financing Mage-OS is about innovating and sustaining an awesome platform into something we can continue to rely on for the next decade or more.</p>
+      <p>By supporting Mage-OS, you will get a membership badge showing your membership level, and a listing in our membership directory, which is open to all visitors of the Mage-OS website. Show your support, and others interested in Mage-OS will be able to find you in the process.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">As an agency, what value do I get from Mage-OS?</h4></summary>
+      <ul class="mt-2">
+        <li>Direct influence and ownership of the platform by becoming a member of the Mage-OS Association</li>
+        <li>A stable and mature eCommerce platform, evolved out of Magento Open Source which is backed by a large corporation</li>
+        <li>Participation in the vibrant global Magento community</li>
+      </ul>
+    </details>
+
+    
+    <h2 id="vision-and-sustainability" class="mt-8 mb-4 text-2xl">Vision and Sustainability</h2>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What is the long-term vision?</h4></summary>
+      <p class="mt-2">Our vision for Mage-OS is to provide a high-quality, dependable, and better alternative to the Adobe-curated Magento Open Source project. We will demonstrate an ability to process contributions quickly and effectively, improve the quality and accessibility of the platform, and release updates on a regular cadence that users can plan around.</p>
+      <p>We expect these actions to have a meaningful improvement on the quality of life for all people in the ecosystem, which will in turn encourage growth and engagement among the community.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What is the current status of Mage-OS?</h4></summary>
+      <p class="mt-2">Currently we are still at the beginning. We are providing an independently built version of all releases of Magento Open Source since version 2.3.7-p3 (including all 2.4.*) through a composer repository found at mirror.mage-os.org.</p>
+      <p>We also provide documentation and tooling for others to create their own mirrors. This allows hosting providers to better support their customers, and makes the whole ecosystem more decentralized and resilient.</p>
+      <p>We also generate nightly builds of the current Magento Open Source development version, through the composer repository upstream-nightly.mage-os.org.</p>
+      <p>We are in the process of creating the infrastructure to support and release our own Mage-OS Distribution releases and accept contributions.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What is the roadmap?</h4></summary>
+      <p class="mt-2">The roadmap is currently focused on building the required infrastructure, rather than improving the eCommerce platform itself.</p>
+      <p>In the short term, we are working on being able to process pull requests. This will be possible by the end of 2022.</p>
+      <p>Then we will work on the process of creating independent releases during the first quarter of 2023.</p>
+      <p>After that, we will begin the work to improve the platform itself.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">When can I start using Mage-OS?</h4></summary>
+      <p class="mt-2">You can start using the mirror distribution right now. All it takes is installing Magento from mirror.mage-os.org rather than repo.magento.com. However, currently there are few advantages to doing so as the resulting installation will be identical.</p>
+      <p>You can start using the improved version of Mage-OS as soon as it is available. Look for that in the first half of 2023. Stay tuned!</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What are the plans for if Adobe no longer supports Magento Open Source?</h4></summary>
+      <p class="mt-2">If or when Adobe stops supporting and maintaining Magento Open Source, Mage-OS will be well positioned to step into its place. This is an important aspect of Mage-OS: to provide certainty and a long-term plan for the ecosystem, regardless of factors outside our control.</p>
+      <p>If at some point Magento Open Source becomes unsupported, we will start considering larger changes to improve the platform, with less emphasis on preserving upstream compatibility with Magento Open Source.</p>
+      <p>In the meantime, we will make every effort to preserve compatibility with Magento Open Source, while at the same time improving performance and adding new features.</p>
+      <p>This is necessary to preserve ease of use, familiarity, and compatibility for everyone (including vendors, extensions, and developers).</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How is Mage-OS going to ensure long-term support and availability?</h4></summary>
+      <p class="mt-2">We will follow an approach inspired by the Typo3 Association, which founded a limited company (Typo3 GmbH) which is owned 100% by the Typo3 association. The company provides services supporting the ecosystem, such as LTS, SLAs, certification, but does not compete with the members of the community. This means that the company will not implement Mage-OS projects nor do body leasing.</p>
+      <p>This model of a community owned commercial entity will provide the vendor based support and financial backing required for the long term success of businesses of all sizes built around Mage-OS.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How will a volunteer group be able to manage this open-source project?</h4></summary>
+      <p class="mt-2">We're really into this Mage-OS thing. Also, we're not going to do it alone! We will be hiring full-time paid staff and opening a Mage-OS development grant program as soon as circumstances allow us to do so.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">As an agency or vendor, is Mage-OS going to compete with my business?</h4></summary>
+      <p class="mt-2">No. We can't guarantee future improvements or features won't step into the territory of existing solutions, but our intention is to support the ecosystem, not undermine it.</p>
+      <p>Mage-OS and the Mage-OS Association will not be providing any conventional merchant services. Any requests we receive for development, integration, site builds, audits, etc. will be referred to the Mage-OS supporters list.</p>
+    </details>
+
+    
+    <h2 id="community" class="mt-8 mb-4 text-2xl">Community</h2>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How is Mage-OS related to the Magento Association? Aren't they directly competing?</h4></summary>
+      <p class="mt-2">Mage-OS and the Magento Association both deal with the Magento ecosystem and community, but they are focused on different things.</p>
+      <p>Magento Association is focused on supporting and maintaining the Magento community through events, content, outreach, and similar programs, but they have little involvement in the development of Magento Open Source itself. One of the main purposes of the Magento Association is to represent the Magento brand, and to communicate with the Magento brand owner, Adobe.</p>
+      <p>The Mage-OS Association on the other hand is more technology-focused. We support the ecosystem by publishing an improved but compatible distribution of Magento. We are focused on growing independently of Adobe.</p>
+      <p>We look forward to collaborating with the Magento Association in the future, as we both share the same fundamental purpose of growing and supporting the Magento Open Source ecosystem.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Why create a whole new association and brand?</h4></summary>
+      <p class="mt-2">We have an immense amount of respect for the people that built Magento and maintain it to this day. That said, we fundamentally disagree with the direction Adobe is taking the platform (as detailed in our open letter 14 Sept 2021: <a href="/blog/the-future-of-magento">https://mage-os.org/blog/the-future-of-magento</a>). In order to take the steps we see as necessary for Magento to thrive among the latest eCommerce competitors, we need control and nimbleness that is not possible in the Adobe-controlled Magento Open Source project.</p>
+      <p>For this reason, we made the difficult decision to create our own fork and distribution based on the Magento open source code. The Magento name and logo are trademarks we can't use, so we are calling this new product Mage-OS, and the organization behind it is the Mage-OS Association.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Isn't this going to split the Magento ecosystem?</h4></summary>
+      <p class="mt-2">Splitting the ecosystem is the last thing we want to do.</p>
+      <p>Mage-OS was created to revitalize and sustain the community of developers, agencies, merchants, and partners that built their business around Magento. The best way for us to do that is to stay compatible with Magento Open Source and Adobe Commerce to the greatest extent possible, for as long as we can.</p>
+      <ul>
+        <li>Extensions that work with Magento will work with Mage-OS.</li>
+        <li>Extensions that work with Mage-OS will work with Magento (unless they are based on Mage-OS specific features).</li>
+        <li>Code samples and syntax for Magento will work for Mage-OS too.</li>
+        <li>Anyone that learns or knows Magento or Mage-OS should be able to switch to the other with minimal effort or confusion.</li>
+      </ul>
+      <p>Mage-OS will make improvements and fixes to the core for Mage-OS Distribution, but those fixes will not break or fundamentally change the nature of Magento. It's still going to be the same architecture, with the same incredible customizability. If we do this right, it'll just be easier and nicer to work with.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Is this just a European thing?</h4></summary>
+      <p class="mt-2">No. Mage-OS was started by a group of companies that happened to be located mostly in Europe, but we are actively growing our member base all over the world.</p>
+      <p>For more information, please refer to our blog post on <a href="/blog/mage-os-update-2022-week-38-diversity-and-inclusion">Diversity and Inclusion</a> that focuses among other things on geographic representation.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Isn't it a conflict of interest to have companies represented by Mage-OS leadership?</h4></summary>
+      <p class="mt-2">Any people with a business that relies on Magento have a vested interest in Magento's success. Because of that, they (and we) are committed to improve the ecosystem, and to ensure it lives long and prospers. That applies to everyone involved with Mage-OS, including the association's board of directors.</p>
+      <p>There is a long history of 'cooperative competition' in the Magento ecosystem. This is based on the belief that "if the cake gets bigger, we all win".</p>
+      <p>The Mage-OS Association's statutes (rules of operation) have specific requirements for avoiding direct conflicts of interest while acting for Mage-OS, which all board members must abide by.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Is Mage-OS going to have its own learning/certification path?</h4></summary>
+      <p class="mt-2">Mage-OS will not offer training as long as there are businesses in the Magento ecosystem that do so. There are many excellent resources to learn Magento as a merchant, a solution architect, or a developer.</p>
+      <p>We do not have concrete plans to offer our own certification, but it is something that might happen in the future if it serves the community.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Is Mage-OS going to organize its own events?</h4></summary>
+      <p class="mt-2">At this time we don't have concrete plans to organize a Mage-OS conference, because we are focused on other things, but it sure has come up already in discussions, so who knows – it might happen!</p>
+      <p>That said, members are organizing Mage-OS meetups and participate and speak at other events, including Meet-Commerce and Unconferences. If you are interested in representing Mage-OS at a conference you are planning to attend, that is great! Please let us know on Discord!</p>
+      <p>Once a year all members are invited to the General Assembly of the Mage-OS Association, an online event. The General Assembly governs the Mage-OS Association according to the association statutes.</p>
+    </details>
+    
+    
+    <h2 id="usage" class="mt-8 mb-4 text-2xl">Usage</h2>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Can I switch to Mage-OS if I'm already running Magento?</h4></summary>
+      <p class="mt-2">Yes! You will just need to make some changes to your composer.json file and then update. The Mage-OS mirror is compatible with all your existing Magento code, but please test compilation and general site functionality before moving to Mage-OS on a live site.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Can I switch back to Magento after using Mage-OS?</h4></summary>
+      <p class="mt-2">Yes! You will just need to make some changes to your composer.json file and then update. You will lose any Mage-OS specific enhancements in the process, but if you change your mind, you can switch back just as easily.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Can I move from Mage-OS to Adobe Commerce?</h4></summary>
+      <p class="mt-2">Yes. It is very similar to moving from Magento Open Source to Adobe Commerce. You'll lose any Mage-OS specific features in the process, but both are based on the same Magento core, so all of your data will stay intact.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Can I move from Adobe Commerce to Mage-OS?</h4></summary>
+      <p class="mt-2">Yes. You'll lose any Adobe Commerce specific features in the process, but both are based on the same Magento core, so all of your data will stay intact. The process is very similar to moving from Adobe Commerce to Magento Open Source, so it is possible, but it does require some work.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How do I install Mage-OS, compared to Magento Open Source?</h4></summary>
+      <p class="mt-2">Magento is installed using the composer command <br>`composer create-project –repository-url=https://repo.magento.com magento/project-community-edition`</p>
+      <p>You can choose to install Mage-OS by using a mage-os repository-url instead of repo.magento.com in that command:</p>
+      <ul>
+        <li>`mirror.mage-os.org` provides any Magento Open Source version since 2.3.7-p3</li>
+        <li>`upstream-nightly.mage-os.org` provides the nightly builds based on the current develop branches.*</li>
+        <li>`repo.mage-os.org` will have the Mage-OS Distribution releases we are currently working towards.</li>
+        <li>`nightly.mage-os.org` has Mage-OS Distribution nightly development builds.*</li>
+      </ul>
+      <p>
+        <em>* (Technically these could also live in mirror.mage-os.org and repo.mage-os.org, but we like to keep them separate as we only keep a week of past nightly builds, and the mirror.mage-os.org repo should be idempotent, that is, any package that is available there once will stay available forever.)</em>
+      </p>
+    </details>
+    
+    
+    <h2 id="contribution" class="mt-8 mb-4 text-2xl">Contribution</h2>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How can I contribute to, support, or get involved with Mage-OS?</h4></summary>
+      <p class="mt-2">Today: Join us in Discord at <a href="http://chat.mage-os.org">http://chat.mage-os.org</a> and let us know how you're interested in helping!</p>
+      <p>Our current main work streams are around</p>
+      <ol>
+        <li>The Mage-OS product</li>
+        <li>Visibility and understanding of the Mage-OS initiative and brand (Marketing and Communication)</li>
+        <li>Content development around Mage-OS (features, showcases, comparisons, and more)</li>
+      </ol>
+      <p>Soon: We will open membership and supporter programs by the end of the year to allow you or your company to support Mage-OS financially. This will allow us to hire full-time staff to further Mage-OS, provide additional resources, and start a grant program for development of the Mage-OS Distribution.</p>
+      <p>Also soon: We will open the Mage-OS Distribution to contributions and pull requests.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Why should I contribute?</h4></summary>
+      <p class="mt-2">You can contribute financially or through volunteer work. By contributing to Mage-OS, you're directly supporting development of the Mage-OS and Magento ecosystem. You can directly influence the direction of the platform and help to keep it modern and relevant.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">When can I send pull requests to Mage-OS?</h4></summary>
+      <p class="mt-2">Soon! Follow us on Discord, Twitter, or LinkedIn for updates. We are working on the infrastructure now, and aim to start accepting pull requests on GitHub by the end of 2022.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What kind of pull requests and contributions are going to get processed?</h4></summary>
+      <p class="mt-2">In time we will accept contributions of any nature, but to start we are particularly interested in backwards compatible changes:</p>
+      <ul>
+        <li>Bug fixes</li>
+        <li>Improvements to the developer experience</li>
+        <li>Performance improvements</li>
+        <li>Improvements to maintainability, for example cleaning up the package dependency graph. (mostly backwards compatible)</li>
+        <li>Independent modules which enhance or add functionality</li>
+      </ul>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Are there meetings I can join?</h4></summary>
+      <p class="mt-2">Yes! Please join and participate. If you just want to listen, that is fine, too – just let us know when you join.</p>
+      <p>Meetings happen in Discord, in the video/audio channel "Meeting Room 1", at:</p>
+      <ul>
+        <li>Monday at 3PM CET: Content meeting</li>
+        <li>Tuesday at 3PM CET: Tech meeting</li>
+      </ul>
+      <p>
+        <a href="https://www.worldtimebuddy.com/?pl=1&lid=8,5,14,12,13,30,21&h=12&hf=1">Convert to your timezone</a>
+      </p>
+    </details>
+    
+    
+    <h2 id="technology" class="mt-8 mb-4 text-2xl">Technology</h2>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">What versions of Magento is Mage-OS based on?</h4></summary>
+      <p class="mt-2">Mage-OS is only focused on Magento 2, particularly the supported release line (2.4). For Magento 1, we'd encourage you to look at <a href="https://github.com/OpenMage/magento-lts">OpenMage LTS</a>.</p>
+      <p>Currently the Mage-OS Mirror repository provides all versions of Magento 2 since 2.3.7-p3.</p>
+      <p>The Mage-OS Distribution will be based on the latest Magento Open Source version.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">If the current setup is that it's just a mirror for Magento Open Source, how does accepting PRs work?</h4></summary>
+      <p class="mt-2">We are in the process of setting up repository forks specific to the Mage-OS Distribution, as well as infrastructure and instrumentation to drive those repositories and keep them in sync with changes to the associated Magento Open Source repositories.</p>
+      <p>You can find the core repository already at: <a href="https://github.com/mage-os/mageos-magento2">https://github.com/mage-os/mageos-magento2</a></p>
+      <p>Ultimately, you will be able to submit PRs directly to Mage-OS repositories, just like you would submit them to Magento Open Source.</p>
+      <p>For any work that doesn't require changes to the Magento core, we encourage those to be developed as separate modules instead. Please see further notes below.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Will changes be merged into Magento Open Source? If so won't they diverge from the Adobe managed open source repository?</h4></summary>
+      <p class="mt-2">We've had many informal discussions with Adobe about how to merge Mage-OS PRs into Magento Open Source. The most likely process will be that Magento will cherry-pick commits they are interested in.</p>
+      <p>Regarding divergence: Our goal is to maintain backwards compatibility for as long as possible, but yes, Mage-OS and Magento will diverge over time.</p>
+      <p>There's a public GitHub project that details tasks to be completed before we accept PRs: <a href="https://github.com/orgs/mage-os/projects/3">https://github.com/orgs/mage-os/projects/3</a></p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">How do new feature proposals (RFCs) work? Will they only be accepted in a later stage where it has diverged enough?</h4></summary>
+      <p class="mt-2">For new features we will likely follow an approach of delivering these as separate packages.<br>We have three stated technical improvement goals for MageOS currently:</p>
+      <ol>
+        <li>Fix the package Graph and use a Graph build to improve the time it takes to run tests.</li>
+        <li>Avoid breaking changes.</li>
+        <li>Make it easier to get started as a junior developer. This means making a package that "just works" on a WAMP/MAMP/LAMP environment. This is important to keep the influx of new developers into the ecosystem alive.</li>
+      </ol>
+      <p>There are other ideas that come from this (like delivering different metapackages other than project-community-edition).</p>
+      <p>Regarding new features: We plan to take an approach similar to Adobe, by implementing new features as new packages, rather than directly in the core. This allows for an independent release schedule of features, as well as making it easier to keep upstream compatibility with Magento Open Source intact.</p>
+      <p>So new features = new modules, but improvements to the core that are backwards compatible can go into the Mage-OS core.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Will Mage-OS have extra modules that will not be in Magento Open Source?</h4></summary>
+      <p class="mt-2">Yes, add-on modules are the plan for enhancements and additions to the platform. This has numerous advantages, including easier maintenance, separate release schedules, and keeping the main repository closer to the upstream Magento core.</p>
+    </details>
+    
+    <details class="mb-1">
+      <summary class="cursor-pointer"><h4 class="mt-0 ml-1 inline leading-3 font-semibold text-primary text-lg">Will installation of the Mage-OS Distribution be different from magento/product-community-edition?</h4></summary>
+      <p class="mt-2">Only slightly. The meta package might be called differently, perhaps mage-os/project-community-edition, but the packages will still use the "magento" vendor name for compatibility reasons.</p>
+  </article>
+</Layout>
