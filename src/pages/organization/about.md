@@ -88,7 +88,7 @@ As a non-profit organization, Mage-OS was founded with formal statutes that defi
 
 ## Sponsors
 
-We are proud and grateful to be suppoerted by:
+We are proud and grateful to be supported by:
 
 [![Tutanota, an Email Service Provider sponsoring Mage-OS](/supporters/tutanota.png)](https://tutanota.com/)
 
