@@ -14,7 +14,7 @@ const rawPosts = await Astro.glob('./blog/*.md')
 const posts = rawPosts
   .map(({ url, frontmatter }) => ({ url, ...frontmatter }))
   .sort((a, b) => new Date(b.date) - new Date(a.date))
-  .slice(0, 5)
+  .slice(0, 3)
 ---
 
 <Layout content={content}>
@@ -58,6 +58,70 @@ const posts = rawPosts
       </ul>
     </div>
   </div>
+ 
+  <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
+  
+  <div id="opencollective-container">
+    
+  </div>
+  <script type="text/javascript">
+    (function () {
+      const loadTier = (tierId) => {
+        console.log('loading ' + tierId);
+        
+        fetch('https://opencollective.com/mage-os/members/all.json')
+          .then(res => res.json())
+          .then(out => renderTier(out))
+          .catch(err => { throw err });
+      };
+      
+      const renderTier = (contributors) => {
+        if (contributors === {}) {
+          return;
+        }
+        
+        let title = document.createElement('h4');
+        title.classList = 'text-2xl mb-2 text-center font-bold';
+        title.innerHTML = 'Supporters';
+        
+        let container = document.createElement('ul');
+        container.classList = 'flex flex-wrap gap-4 my-8 w-full items-top justify-center';
+        
+        for (row of contributors) {
+          /**
+           * TODO:
+           *  Sort by contribution
+           *  Cut any that have not contributed within a year
+           *  Show contribution amount
+           *  Render each tier
+           */
+          let content = '<a href="' + row?.profile + '" class="block font-medium text-center">';
+          content += '<img src="' + row?.image + '" alt="' + row?.name + '" class="w-full rounded-lg mb-2">';
+          content += row?.name + '</a>';
+          
+          let child = document.createElement('li');
+          child.classList = 'w-28';
+          child.innerHTML = content;
+          container.appendChild(child);
+        }
+        
+        document.getElementById('opencollective-container').appendChild(title);
+        document.getElementById('opencollective-container').appendChild(container);
+        
+        console.log(contributors);
+      };
+      
+      const init = () => {
+        loadTier(0);
+      };
+
+      if (document.readyState !== 'loading') {
+        init();
+      } else {
+        document.addEventListener('DOMContentLoaded', init);
+      }
+    })();
+  </script>
  
   <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
   
