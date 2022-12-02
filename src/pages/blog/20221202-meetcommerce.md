@@ -2,7 +2,7 @@
 layout: '@/layouts/post.astro'
 date: 2022-12-02
 title: Meet you soon in Madrid!
-description: Meet Commerce Spain is taking place on Tuesday 13th December, in Madrid, Spain, an Mage-OS will meet you there!
+description: Mage-OS will be at Meet Commerce Spain on December 13th, see you there!
 ---
 
 ![A banner of the Mage-OS talk Vinai Kopp will be giving at MeetCommerce.es.](/blog/2022/2022-12-02-meetcommerce-mage-os-talk-bannner.jpg)
