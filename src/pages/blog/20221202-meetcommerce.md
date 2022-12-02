@@ -41,7 +41,7 @@ As a nice thank-you gift, Interactiv4 has offered free tickets to individuals wh
 
 ![A photo of happy Magento people being happy about the happy organization Mage-OS is.](/blog/2022/2022-12-02-meetcommerce-mageos-2.jpg)
 
-## Meet Commerce Madrid: what else is different?
+## Meet Commerce Spain: what else is different?
 This event is brand new and filling a gap. This conference is open to all eCommerce Platforms, not just Magento and Adobe Commerce, but also:
 
 - Shopware
