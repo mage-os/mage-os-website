@@ -92,3 +92,4 @@ We are proud and grateful to be supported by:
 
 [![Tutanota, an Email Service Provider sponsoring Mage-OS](/supporters/tutanota.png)](https://tutanota.com/)
 
+Tutanota provides secure e-mail hosting to us free of charge.
