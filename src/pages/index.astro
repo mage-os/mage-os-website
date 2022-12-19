@@ -61,70 +61,6 @@ const posts = rawPosts
  
   <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
   
-  <div id="opencollective-container">
-    
-  </div>
-  <script type="text/javascript">
-    (function () {
-      const loadTier = (tierId) => {
-        console.log('loading ' + tierId);
-        
-        fetch('https://opencollective.com/mage-os/members/all.json')
-          .then(res => res.json())
-          .then(out => renderTier(out))
-          .catch(err => { throw err });
-      };
-      
-      const renderTier = (contributors) => {
-        if (contributors === {}) {
-          return;
-        }
-        
-        let title = document.createElement('h4');
-        title.classList = 'text-2xl mb-2 text-center font-bold';
-        title.innerHTML = 'Supporters';
-        
-        let container = document.createElement('ul');
-        container.classList = 'flex flex-wrap gap-4 my-8 w-full items-top justify-center';
-        
-        for (row of contributors) {
-          /**
-           * TODO:
-           *  Sort by contribution
-           *  Cut any that have not contributed within a year
-           *  Show contribution amount
-           *  Render each tier
-           */
-          let content = '<a href="' + row?.profile + '" class="block font-medium text-center">';
-          content += '<img src="' + row?.image + '" alt="' + row?.name + '" class="w-full rounded-lg mb-2">';
-          content += row?.name + '</a>';
-          
-          let child = document.createElement('li');
-          child.classList = 'w-28';
-          child.innerHTML = content;
-          container.appendChild(child);
-        }
-        
-        document.getElementById('opencollective-container').appendChild(title);
-        document.getElementById('opencollective-container').appendChild(container);
-        
-        console.log(contributors);
-      };
-      
-      const init = () => {
-        loadTier(0);
-      };
-
-      if (document.readyState !== 'loading') {
-        init();
-      } else {
-        document.addEventListener('DOMContentLoaded', init);
-      }
-    })();
-  </script>
- 
-  <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
-  
   <h2 class="my-8 text-2xl">Updates</h2>
   <PostPreviewList posts={posts} />
 
@@ -134,4 +70,96 @@ const posts = rawPosts
   >
     View all updates
   </Button>
+ 
+  <hr class="my-8 mx-auto w-1/2 border-gray-300 border-dashed" />
+  
+  <div id="opencollective-container" class="flex flex-col">
+  </div>
+  <span class="text-xl text-lg text-md order-1 order-2 order-3 order-4 order-5 order-6"></span>
+  <script type="text/javascript">
+    (function () {
+      const loadTier = (tierId, settings) => {
+        let titleBar = document.createElement('h4');
+        titleBar.classList = 'text-2xl mb-2 text-center font-bold';
+        titleBar.innerHTML = settings.title;
+        
+        let wrapper = document.createElement('div');
+        wrapper.id = 'tier-' + tierId;
+        wrapper.style.display = 'none';
+        wrapper.classList = 'order-' + settings?.order;
+        wrapper.appendChild(titleBar);
+        
+        document.getElementById('opencollective-container').appendChild(wrapper);
+        
+        let url = 'https://opencollective.com/mage-os/members/all.json';
+        if ((tierId-0) > 0) {
+          url += '?TierId=' + tierId;
+        }
+        
+        fetch(url)
+          .then(res => res.json())
+          .then(out => renderTier(tierId, settings, out))
+          .catch(err => { throw err });
+      };
+      
+      const renderTier = (tierId, settings, contributors) => {
+        if (contributors === {}) {
+          return;
+        }
+        
+        contributors.sort((a, b) => {
+          return b.totalAmountDonated - a.totalAmountDonated;
+        });
+        
+        let container = document.createElement('ul');
+        container.classList = 'flex flex-wrap gap-4 my-8 w-full items-top justify-center';
+        
+        for (row of contributors) {
+          if (row?.isActive !== true) {
+            continue;
+          }
+          
+          let name = row?.name.replace('"', "'").replace(/\<\>/g, '')
+          let content = '<a href="' + row?.profile + '" class="block h-full flex flex-col font-medium text-center hover:bg-secondary/5 p-1 rounded-lg overflow-hidden" title="' + name + '">';
+          content += '<img src="' + row?.image + '" alt="' + name + '" class="w-full rounded-lg">';
+          content += '<span class="block flex-grow leading-none py-2 ' + settings?.text + '">' + name + '</span>';
+          if (settings?.showTotal) {
+            content += '<span class="text-sm text-gray-700 italic">$' + Math.round(row?.totalAmountDonated) + '</span>';
+          }
+          content += '</a>';
+          
+          let child = document.createElement('li');
+          child.classList = settings?.size || 'w-28';
+          child.innerHTML = content;
+          container.appendChild(child);
+        }
+        
+        if (container.children.length > 0) {
+          document.getElementById('tier-' + tierId).appendChild(container);
+          document.getElementById('tier-' + tierId).style.display = 'block';
+        }
+      };
+      
+      const init = () => {
+        const tiers = {
+          // "0": {title: "All Supporters", size: "", order: 1},
+          "48128": {title: "Platinum Supporters", size: "w-60", text: "text-3xl font-semibold", order: 2, showTotal: false},
+          "48129": {title: "Gold Supporters", size: "w-40", text: "text-xl", order: 3, showTotal: true},
+          "48130": {title: "Silver Supporters", size: "w-32", text: "text-lg", order: 4, showTotal: true},
+          "48131": {title: "Bronze Supporters", size: "w-24", text: "text-base", order: 5, showTotal: true},
+          "44723": {title: "Professional Members", size: "w-16", text: "text-sm", order: 6, showTotal: false},
+        };
+        
+        for (tierId in tiers) {
+          loadTier(tierId, tiers[tierId]);
+        }
+      };
+
+      if (document.readyState !== 'loading') {
+        init();
+      } else {
+        document.addEventListener('DOMContentLoaded', init);
+      }
+    })();
+  </script>
 </Layout>
