@@ -14,9 +14,17 @@ import PostPreviewList from '@/components/PostPreviewList.astro'
 import Button from '@/components/Button.astro'
 
 const { page } = Astro.props
+
+const content = {
+  title: 'Blog | Mage-OS',
+  description: 'An overview of all Mage-OS blog posts.',
+  socialTitle: 'The Mage-OS Blog',
+  socialDescription: 'An overview of all Mage-OS blog posts.'
+}
+
 ---
 
-<Layout>
+<Layout content={content}>
   <div class="mb-6">
     <h1 class="text-2xl font bold text-gray-600">
       Blog
