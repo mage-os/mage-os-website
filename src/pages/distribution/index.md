@@ -61,10 +61,10 @@ You can obtain Magento packages through these Mage-OS-built Magento mirror repos
 - EU: [mage-os.maxcluster.net/mirror/](https://mage-os.maxcluster.net/mirror/) *(maxcluster)*
 
 
-These can be used to install Magento Open Source 2.3.7 and 2.4.x without authentication. To install `magento/project-community-edition` 2.4.5 in your working directory:
+These can be used to install Magento Open Source 2.3.7 and 2.4.x without authentication. To install `magento/project-community-edition` 2.4.6 in your working directory:
 
 ```bash
-composer create-project --repository-url=https://mirror.mage-os.org/ magento/project-community-edition:2.4.5 .
+composer create-project --repository-url=https://mirror.mage-os.org/ magento/project-community-edition:2.4.6 .
 ```
 
 ### Magento Mirror Repository Generation
